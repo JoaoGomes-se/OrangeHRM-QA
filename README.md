@@ -122,8 +122,8 @@ describe('Meu fluxo', () => {
 
 ## Contribuições
 
-Abra issues para problemas, e crie PRs para melhorias de testes, novos comandos e correções de seletores.
-
+João Victor Gomes
+Jonatas Pereira
 ---
 
 ## Contato

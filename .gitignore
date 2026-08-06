@@ -1,0 +1,24 @@
+# Dependências do Node.js
+node_modules/
+
+# Resultados e artefatos do Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Logs de depuração
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações locais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos do sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

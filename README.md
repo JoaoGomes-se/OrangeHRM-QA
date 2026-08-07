@@ -122,8 +122,8 @@ describe('Meu fluxo', () => {
 
 ## Contribuições
 
-João Victor Gomes
-Jonatas Pereira
+###João Victor Gomes
+###Jonatas Pereira
 ---
 
 ## Contato

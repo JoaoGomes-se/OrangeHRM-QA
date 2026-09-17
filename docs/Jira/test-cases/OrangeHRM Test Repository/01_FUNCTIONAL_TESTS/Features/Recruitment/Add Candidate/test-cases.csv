@@ -1,0 +1,180 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T60,TC_RECRUITMENT_ADD_CANDIDATE_003(negative/error): Verify dynamic error validation warning appears when mandatory First Name field is submitted blank,Approved,High,"* Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. User is logged into the application workspace using valid admin
+account credentials.
+
+4. User has navigated through the UI menu layout to the path:
+Recruitment > Candidates and clicked the ""+ Add"" action button.
+
+5. Ensure the candidate registration form layout is completely
+rendered on screen.
+
+* Requirements:
+
+o TC_AUTH_LOGIN_004(Positive): Verify successful login with valid
+admin credentials.","This test case verifies that the recruitment candidate registration system
+enforces strict data structure standards by blocking form submissions and
+displaying an explicit red validation warning if the mandatory First Name
+field is left empty.",1,"Click inside the text input box labeled ""First Name"", clear any content,
+and leave it completely blank.",,"The input space remains clear of characters, and no validation warnings are
+prematurely rendered under the component frame."
+SCRUM-T60,TC_RECRUITMENT_ADD_CANDIDATE_003(negative/error): Verify dynamic error validation warning appears when mandatory First Name field is submitted blank,Approved,High,"* Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. User is logged into the application workspace using valid admin
+account credentials.
+
+4. User has navigated through the UI menu layout to the path:
+Recruitment > Candidates and clicked the ""+ Add"" action button.
+
+5. Ensure the candidate registration form layout is completely
+rendered on screen.
+
+* Requirements:
+
+o TC_AUTH_LOGIN_004(Positive): Verify successful login with valid
+admin credentials.","This test case verifies that the recruitment candidate registration system
+enforces strict data structure standards by blocking form submissions and
+displaying an explicit red validation warning if the mandatory First Name
+field is left empty.",2,"Click inside the adjacent required input field labeled ""Last Name"" and
+input a valid textual sequence.",Last Name: Ferreira,"The text data is accepted and remains fully legible inside the input
+viewport."
+SCRUM-T60,TC_RECRUITMENT_ADD_CANDIDATE_003(negative/error): Verify dynamic error validation warning appears when mandatory First Name field is submitted blank,Approved,High,"* Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. User is logged into the application workspace using valid admin
+account credentials.
+
+4. User has navigated through the UI menu layout to the path:
+Recruitment > Candidates and clicked the ""+ Add"" action button.
+
+5. Ensure the candidate registration form layout is completely
+rendered on screen.
+
+* Requirements:
+
+o TC_AUTH_LOGIN_004(Positive): Verify successful login with valid
+admin credentials.","This test case verifies that the recruitment candidate registration system
+enforces strict data structure standards by blocking form submissions and
+displaying an explicit red validation warning if the mandatory First Name
+field is left empty.",3,"Move your cursor layout tool down to the lower operational action block and
+click on the graphical button labeled ""Save"".",,"1. The application runtime framework intercepts and blocks the form
+submission pipeline.
+
+2. The page browser session is not redirected.
+
+3. A sharp dynamic red warning text saying ""Required"" flashes open
+directly beneath the empty ""First Name"" input field box."
+SCRUM-T61,TC_RECRUITMENT_ADD_CANDIDATE_001(positive): Verify database integration handles candidate creation at maximum boundary limit of 30 characters in First Name,Approved,Normal,"Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. Authenticated into the database system using Admin user profiles
+(Username: Admin / Password: admin123).
+
+4. Navigated via sub-menus to the form view block: Recruitment >
+Candidates > + Add.
+
+5. The candidate data input sheet is completely loaded on the primary
+display layout area.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the text processing and storage architecture
+of the candidate registration module successfully parses, renders, and
+commits data entries operating at the exact maximum boundary constraint of
+30 characters for a candidate name without clipping or truncation.",1,"Select the ""First Name"" text interaction box and type a valid string
+configuration stretching to exactly 30 characters long.",LucasGabrielRochaFerreiraJalaU,"The input element displays all 30 characters typed continuously without
+running into forced cutoff scripts or localized UI truncation."
+SCRUM-T61,TC_RECRUITMENT_ADD_CANDIDATE_001(positive): Verify database integration handles candidate creation at maximum boundary limit of 30 characters in First Name,Approved,Normal,"Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. Authenticated into the database system using Admin user profiles
+(Username: Admin / Password: admin123).
+
+4. Navigated via sub-menus to the form view block: Recruitment >
+Candidates > + Add.
+
+5. The candidate data input sheet is completely loaded on the primary
+display layout area.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the text processing and storage architecture
+of the candidate registration module successfully parses, renders, and
+commits data entries operating at the exact maximum boundary constraint of
+30 characters for a candidate name without clipping or truncation.",2,"Click inside the required input field labeled ""Last Name"" and fill the
+viewport block with valid alphanumeric text.",Ferreira,"The layout records, locks, and displays the textual string accurately
+inside its box layout framework."
+SCRUM-T61,TC_RECRUITMENT_ADD_CANDIDATE_001(positive): Verify database integration handles candidate creation at maximum boundary limit of 30 characters in First Name,Approved,Normal,"Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. Authenticated into the database system using Admin user profiles
+(Username: Admin / Password: admin123).
+
+4. Navigated via sub-menus to the form view block: Recruitment >
+Candidates > + Add.
+
+5. The candidate data input sheet is completely loaded on the primary
+display layout area.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the text processing and storage architecture
+of the candidate registration module successfully parses, renders, and
+commits data entries operating at the exact maximum boundary constraint of
+30 characters for a candidate name without clipping or truncation.",3,"Move focus to the field labeled ""Email"" and type a properly constructed
+email syntax address.",Email: lucas.rocha0125@jala.university,"The validation engine reviews the string formatting, flags it as
+structurally valid, and prompts no alerts."
+SCRUM-T61,TC_RECRUITMENT_ADD_CANDIDATE_001(positive): Verify database integration handles candidate creation at maximum boundary limit of 30 characters in First Name,Approved,Normal,"Pre-conditions:
+
+1. Stable internet connection.
+
+2. Access URL:
+
+3. Authenticated into the database system using Admin user profiles
+(Username: Admin / Password: admin123).
+
+4. Navigated via sub-menus to the form view block: Recruitment >
+Candidates > + Add.
+
+5. The candidate data input sheet is completely loaded on the primary
+display layout area.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the text processing and storage architecture
+of the candidate registration module successfully parses, renders, and
+commits data entries operating at the exact maximum boundary constraint of
+30 characters for a candidate name without clipping or truncation.",4,"Move your tracking icon down to the bottom execution strip and click on the
+graphical green ""Save"" action button.",,"1. The core application processes the candidate record transaction
+successfully.
+
+2. A green confirmation success toast banner pops open on screen.
+
+3. The system changes the page context, redirecting the user to the
+Candidate Profile Overview layout, where the full 30-character name
+string is rendered cleanly without gaps or corruption."

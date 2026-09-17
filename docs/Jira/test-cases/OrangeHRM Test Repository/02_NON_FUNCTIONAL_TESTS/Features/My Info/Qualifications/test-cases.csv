@@ -1,0 +1,96 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T30,TC_MYINFO_003(usability): Verify user control and cancellation flow when adding Work Experience,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies the system's usability regarding user control and
+freedom, ensuring that a user can easily cancel the addition of a Work
+Experience record without saving partial data.",1,"Click on the ""+ Add"" button in the Work Experience section.",,"The ""Add Work Experience"" form opens smoothly and is clearly visible to the
+user."
+SCRUM-T30,TC_MYINFO_003(usability): Verify user control and cancellation flow when adding Work Experience,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies the system's usability regarding user control and
+freedom, ensuring that a user can easily cancel the addition of a Work
+Experience record without saving partial data.",2,"Type partial data into the ""Company"" field.",Company By Mistake,The field accepts the input
+SCRUM-T30,TC_MYINFO_003(usability): Verify user control and cancellation flow when adding Work Experience,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies the system's usability regarding user control and
+freedom, ensuring that a user can easily cancel the addition of a Work
+Experience record without saving partial data.",3,"Type partial data into the ""Job Title"" field.",Wrong Role,The field accepts the input.
+SCRUM-T30,TC_MYINFO_003(usability): Verify user control and cancellation flow when adding Work Experience,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies the system's usability regarding user control and
+freedom, ensuring that a user can easily cancel the addition of a Work
+Experience record without saving partial data.",4,"Click the ""Cancel"" button (instead of Save) located at the bottom of the
+form.",,"The form closes immediately, safely returning the user to the default
+Qualifications view."
+SCRUM-T30,TC_MYINFO_003(usability): Verify user control and cancellation flow when adding Work Experience,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies the system's usability regarding user control and
+freedom, ensuring that a user can easily cancel the addition of a Work
+Experience record without saving partial data.",5,Inspect the Work Experience data table.,,"The partially entered record (""Company By Mistake"") is NOT present in the
+list, confirming the cancellation was intuitive and effectively discarded
+the input."

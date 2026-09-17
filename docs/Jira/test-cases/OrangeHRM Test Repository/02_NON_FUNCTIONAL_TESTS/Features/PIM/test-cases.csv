@@ -1,0 +1,278 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T8,TC_PIM_ADDEMPLOYEE_003(negative/security): Verify non-admin user is restricted from accessing the Add Employee feature,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use standard ESS credentials:
+
+o Username: ess.user
+
+o Password: ess_password123
+
+5. User is currently on their default dashboard screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_006(Positive): Verify successful login with valid
+standard ESS credentials.","This test case verifies that a registered standard user with ESS (Employee
+Self Service) privileges does not have access to administrative operations,
+ensuring proper access control and role isolation.",1,"Locate and inspect the left-side main navigation menu on the dashboard
+view.",,"The ""PIM"" module is either completely hidden from the menu viewport, or if
+visible, the ""Add Employee"" sub-tab/button is strictly omitted from the
+graphical UI layout."
+SCRUM-T8,TC_PIM_ADDEMPLOYEE_003(negative/security): Verify non-admin user is restricted from accessing the Add Employee feature,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use standard ESS credentials:
+
+o Username: ess.user
+
+o Password: ess_password123
+
+5. User is currently on their default dashboard screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_006(Positive): Verify successful login with valid
+standard ESS credentials.","This test case verifies that a registered standard user with ESS (Employee
+Self Service) privileges does not have access to administrative operations,
+ensuring proper access control and role isolation.",2,"Click on the browser's address/URL bar, delete the current endpoint, type
+the direct shortcut URL to the feature, and press the Enter key.",https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee,"The application intercepts the unprivileged request, blocks navigation, and
+displays a red text warning or a ""Credential Required"" error page. No form
+elements are rendered."
+SCRUM-T9,TC_PIM_008(usability): Verify visual organization of employee reports,Approved,Normal,"PRE-CONDITIONS
+
+Navigate to
+
+1. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+2. Ensure there is existing data in the PIM module (employees
+registered).
+
+3. Navigate to PIM -> Reports.
+
+REQUIREMENTS
+
+1. System shall display report data in a clear, tabular format.
+
+2. System shall use legible font sizes and high-contrast colors for
+headers.
+
+3. System shall ensure no data overlapping occurs regardless of the
+number of columns selected.","This test case verifies that the generated employee reports are easy to
+read and logically organized. It ensures that the user interface provides
+clear data visualization and that information is not cluttered, following
+usability best practices.",1,Login in the platform as the Admin account,<https://opensource-demo.orangehrmlive.com/web/index.php/auth/login>,"* Website working properly
+* The UI is visible It has its animation After login will be redirected
+to the dashboard"
+SCRUM-T9,TC_PIM_008(usability): Verify visual organization of employee reports,Approved,Normal,"PRE-CONDITIONS
+
+Navigate to
+
+1. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+2. Ensure there is existing data in the PIM module (employees
+registered).
+
+3. Navigate to PIM -> Reports.
+
+REQUIREMENTS
+
+1. System shall display report data in a clear, tabular format.
+
+2. System shall use legible font sizes and high-contrast colors for
+headers.
+
+3. System shall ensure no data overlapping occurs regardless of the
+number of columns selected.","This test case verifies that the generated employee reports are easy to
+read and logically organized. It ensures that the user interface provides
+clear data visualization and that information is not cluttered, following
+usability best practices.",2,"Go to PIM, in the menu section",<https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList>,"Website working properly
+The UI is visible It has its animation"
+SCRUM-T9,TC_PIM_008(usability): Verify visual organization of employee reports,Approved,Normal,"PRE-CONDITIONS
+
+Navigate to
+
+1. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+2. Ensure there is existing data in the PIM module (employees
+registered).
+
+3. Navigate to PIM -> Reports.
+
+REQUIREMENTS
+
+1. System shall display report data in a clear, tabular format.
+
+2. System shall use legible font sizes and high-contrast colors for
+headers.
+
+3. System shall ensure no data overlapping occurs regardless of the
+number of columns selected.","This test case verifies that the generated employee reports are easy to
+read and logically organized. It ensures that the user interface provides
+clear data visualization and that information is not cluttered, following
+usability best practices.",3,Go to Reports section,"OrangeHRM
+<https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports>","The Employee Reports section loads
+The search bar and ""+ Add"" button are visible"
+SCRUM-T9,TC_PIM_008(usability): Verify visual organization of employee reports,Approved,Normal,"PRE-CONDITIONS
+
+Navigate to
+
+1. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+2. Ensure there is existing data in the PIM module (employees
+registered).
+
+3. Navigate to PIM -> Reports.
+
+REQUIREMENTS
+
+1. System shall display report data in a clear, tabular format.
+
+2. System shall use legible font sizes and high-contrast colors for
+headers.
+
+3. System shall ensure no data overlapping occurs regardless of the
+number of columns selected.","This test case verifies that the generated employee reports are easy to
+read and logically organized. It ensures that the user interface provides
+clear data visualization and that information is not cluttered, following
+usability best practices.",4,Search for a specific report name,Report Name: All Employee Sub Unit Hierarchy Report,"The system filters the records
+The specific report appears in the list below ""(1) Record Found"""
+SCRUM-T9,TC_PIM_008(usability): Verify visual organization of employee reports,Approved,Normal,"PRE-CONDITIONS
+
+Navigate to
+
+1. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+2. Ensure there is existing data in the PIM module (employees
+registered).
+
+3. Navigate to PIM -> Reports.
+
+REQUIREMENTS
+
+1. System shall display report data in a clear, tabular format.
+
+2. System shall use legible font sizes and high-contrast colors for
+headers.
+
+3. System shall ensure no data overlapping occurs regardless of the
+number of columns selected.","This test case verifies that the generated employee reports are easy to
+read and logically organized. It ensures that the user interface provides
+clear data visualization and that information is not cluttered, following
+usability best practices.",5,"Click on the ""Run Report"" icon (file icon) under Actions",Click on the third icon in the Actions column,"The button is clickable and responsive
+The system generates the visual report data"
+SCRUM-T9,TC_PIM_008(usability): Verify visual organization of employee reports,Approved,Normal,"PRE-CONDITIONS
+
+Navigate to
+
+1. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+2. Ensure there is existing data in the PIM module (employees
+registered).
+
+3. Navigate to PIM -> Reports.
+
+REQUIREMENTS
+
+1. System shall display report data in a clear, tabular format.
+
+2. System shall use legible font sizes and high-contrast colors for
+headers.
+
+3. System shall ensure no data overlapping occurs regardless of the
+number of columns selected.","This test case verifies that the generated employee reports are easy to
+read and logically organized. It ensures that the user interface provides
+clear data visualization and that information is not cluttered, following
+usability best practices.",6,Verify the visual organization of the generated report,,"* The report is easy to read Headers and data rows are clearly
+separated No visual glitches or overlapping text in the UI"
+SCRUM-T10,TC_PIM_007(responsiveness): Verify interface adaptation on mobile viewports for Employee List,Approved,Normal,"Pre-conditions:
+
+1. Navigate to
+
+2. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+3. Access the PIM module.
+
+4. Open Browser Developer Tools (F12) and toggle ""Device Mode""
+(Ctrl+Shift+M).
+
+Requirements:
+
+* System shall collapse the side menu into a hamburger icon on small
+screens.
+
+* System shall display the employee data table with a horizontal scroll
+or stacked layout to prevent UI breaking.","This test case verifies if the PIM Employee List interface correctly adapts
+its layout when accessed via mobile resolutions, ensuring that buttons and
+data tables remain functional and do not overlap.",1,Login in the platform and go to PIM,Admin / admin123,Website working properly and PIM module visible.
+SCRUM-T10,TC_PIM_007(responsiveness): Verify interface adaptation on mobile viewports for Employee List,Approved,Normal,"Pre-conditions:
+
+1. Navigate to
+
+2. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+3. Access the PIM module.
+
+4. Open Browser Developer Tools (F12) and toggle ""Device Mode""
+(Ctrl+Shift+M).
+
+Requirements:
+
+* System shall collapse the side menu into a hamburger icon on small
+screens.
+
+* System shall display the employee data table with a horizontal scroll
+or stacked layout to prevent UI breaking.","This test case verifies if the PIM Employee List interface correctly adapts
+its layout when accessed via mobile resolutions, ensuring that buttons and
+data tables remain functional and do not overlap.",2,"Resize the browser to a mobile width (e.g., 390px)",iPhone 12/13 Pro Resolution,The side menu collapses
+SCRUM-T10,TC_PIM_007(responsiveness): Verify interface adaptation on mobile viewports for Employee List,Approved,Normal,"Pre-conditions:
+
+1. Navigate to
+
+2. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+3. Access the PIM module.
+
+4. Open Browser Developer Tools (F12) and toggle ""Device Mode""
+(Ctrl+Shift+M).
+
+Requirements:
+
+* System shall collapse the side menu into a hamburger icon on small
+screens.
+
+* System shall display the employee data table with a horizontal scroll
+or stacked layout to prevent UI breaking.","This test case verifies if the PIM Employee List interface correctly adapts
+its layout when accessed via mobile resolutions, ensuring that buttons and
+data tables remain functional and do not overlap.",3,"Check the ""Employee List"" table visibility",,"The table is contained within the screen width or allows horizontal
+scrolling; text does not overlap."
+SCRUM-T10,TC_PIM_007(responsiveness): Verify interface adaptation on mobile viewports for Employee List,Approved,Normal,"Pre-conditions:
+
+1. Navigate to
+
+2. Log in with Admin credentials (Username: Admin / Password: admin123).
+
+3. Access the PIM module.
+
+4. Open Browser Developer Tools (F12) and toggle ""Device Mode""
+(Ctrl+Shift+M).
+
+Requirements:
+
+* System shall collapse the side menu into a hamburger icon on small
+screens.
+
+* System shall display the employee data table with a horizontal scroll
+or stacked layout to prevent UI breaking.","This test case verifies if the PIM Employee List interface correctly adapts
+its layout when accessed via mobile resolutions, ensuring that buttons and
+data tables remain functional and do not overlap.",4,"Click on the ""Search"" button in mobile view",Report Name: All Employee Sub Unit Hierarchy Report,The button is clickable and responsive to touch/click without misalignment.

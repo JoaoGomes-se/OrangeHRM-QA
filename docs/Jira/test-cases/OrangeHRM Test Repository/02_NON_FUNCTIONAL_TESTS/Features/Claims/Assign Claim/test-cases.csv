@@ -1,0 +1,1986 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T14,TC_RESPONSE_CLAIM_003: Verify if the submited Claim takes less than 5 seconds to submit,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_CLAIM_Create_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator with a valid Employee data can
+sucessfully create a Claim Request when access the OrangeHRM system and be
+redirected to the Assigned Claim screen in less than 5 seconds. The test
+ensures a good response time of the system",1,Insert a valid Employee Name,Employee name: Ranga Akunuri,"1. The employee is encountered
+2. Show to autoinsert"
+SCRUM-T14,TC_RESPONSE_CLAIM_003: Verify if the submited Claim takes less than 5 seconds to submit,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_CLAIM_Create_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator with a valid Employee data can
+sucessfully create a Claim Request when access the OrangeHRM system and be
+redirected to the Assigned Claim screen in less than 5 seconds. The test
+ensures a good response time of the system",2,"On the ""Event"", choose an event type in the list",- Event: Travel Allowance,"1. There is available events in the list
+2. The events can be selected
+3. It's clickable to auto insert"
+SCRUM-T14,TC_RESPONSE_CLAIM_003: Verify if the submited Claim takes less than 5 seconds to submit,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_CLAIM_Create_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator with a valid Employee data can
+sucessfully create a Claim Request when access the OrangeHRM system and be
+redirected to the Assigned Claim screen in less than 5 seconds. The test
+ensures a good response time of the system",3,"On the ""Currency"", choose an currency format in the list",- Currency: Brazillian Real,"1. There is available currency in the list
+2. The currency can be selected
+3. It's clickable to auto insert
+4. They are ordered alphabetically"
+SCRUM-T14,TC_RESPONSE_CLAIM_003: Verify if the submited Claim takes less than 5 seconds to submit,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_CLAIM_Create_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator with a valid Employee data can
+sucessfully create a Claim Request when access the OrangeHRM system and be
+redirected to the Assigned Claim screen in less than 5 seconds. The test
+ensures a good response time of the system",4,"Click on ""Create"" button on the right corner",,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen"
+SCRUM-T14,TC_RESPONSE_CLAIM_003: Verify if the submited Claim takes less than 5 seconds to submit,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_CLAIM_Create_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator with a valid Employee data can
+sucessfully create a Claim Request when access the OrangeHRM system and be
+redirected to the Assigned Claim screen in less than 5 seconds. The test
+ensures a good response time of the system",5,Await less than 5 seconds,,"1. The Assign Claim screen show as expected
+2. It shows a success warning"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",1,Login in the plataform as the admin,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",2,Go to the Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remains highlighted"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",3,Go to the Assigned Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim,"1. It opens the ""Assign Claim"" default screen
+2. The button remains highlighted
+3. It is possible to create a new claim as the admin"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",4,"Logout as the admin in the ""logout"" button",employee credentials,"1. When clicked on logout it go back to the login screen
+2. It has its animation"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",5,Login as the employee account created,,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",6,Use the Assign claim URL and try to access in the adress bar,"- URL on the Address bar: (Use the copied from the previous step since is
+unique)","1. It requires a admin credential
+2. Shows a warning
+3. Claim section stays highlited
+4. The employee cannot proceed to create a claim"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",7,Login in the plataform as the admin,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",8,Go to the Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remains highlighted"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",9,Go to the Assigned Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim,"1. It opens the ""Assign Claim"" default screen
+2. The button remains highlighted
+3. It is possible to create a new claim as the admin"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",10,"Logout as the admin in the ""logout"" button",employee credentials,"1. When clicked on logout it go back to the login screen
+2. It has its animation"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",11,Login as the employee account created,,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T15,TC_SECURITY_CLAIM_006: Verify access is denied to the Employee with the attempt to access the Assign Claim screen,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+6. For the employee. Create the Employee into the database and use
+it (as stated in the requirements)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data","This test case verifies that the assigned claim screen cannot be accessed
+by a employee when they put it's URL or claim id on the address bar. This
+test ensures the authorization is secured and the",12,Use the Assign claim URL and try to access in the adress bar,"- URL on the Address bar: (Use the copied from the previous step since is
+unique)","1. It requires a admin credential
+2. Shows a warning
+3. Claim section stays highlited
+4. The employee cannot proceed to create a claim"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",1,Login in the plataform as the Admin account,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",2,"Go to Claim, in the menu section (The three lines next to the ""Dashboard"")",https://opensource-demo.orangehrmlive.com/web/index.php/claim,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation of opening and closing
+4. The button is pressable"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",3,"Go to Assign Claim section, clicking in ""More:""",https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. Clicking on it shows the features and Assign Claim feature
+5. It stays highlited and open until pressed"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",4,Insert a valid Employee Name,Insert the employee name that has been created of the pre condition,"1. The employee is encountered
+2. It's clickable to auto insert
+3. It is aligned with the other parts"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",5,Choose an Event in the list,Event: Accommodation,"1. There is available events in the list
+2. The events can be selected
+3. It's clickable to auto insert
+4. The list fits on the screen"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",6,Choose a Currency in the list,Currency: Brazillian Real,"1. There is available currency in the list
+2. The currency can be selected
+3. It's clickable to auto insert
+4. They are ordered alphabetically
+5. It's navigatable by draging down"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",7,"Click on ""Create"" button on the right corner",,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",8,"Go to expenses section and click on the ""Add"" button to create a new
+expense","Expense Type: Accommodation
+Date: 2075-05-25
+Note: Friday night
+Amount: 100.00","1. The data is accepted
+2. It shows a success warning"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",9,Click on submit to finish creating,,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",10,Login in the plataform as the Admin account,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",11,"Go to Claim, in the menu section (The three lines next to the ""Dashboard"")",https://opensource-demo.orangehrmlive.com/web/index.php/claim,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation of opening and closing
+4. The button is pressable"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",12,"Go to Assign Claim section, clicking in ""More:""",https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. Clicking on it shows the features and Assign Claim feature
+5. It stays highlited and open until pressed"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",13,Insert a valid Employee Name,Insert the employee name that has been created of the pre condition,"1. The employee is encountered
+2. It's clickable to auto insert
+3. It is aligned with the other parts"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",14,Choose an Event in the list,Event: Accommodation,"1. There is available events in the list
+2. The events can be selected
+3. It's clickable to auto insert
+4. The list fits on the screen"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",15,Choose a Currency in the list,Currency: Brazillian Real,"1. There is available currency in the list
+2. The currency can be selected
+3. It's clickable to auto insert
+4. They are ordered alphabetically
+5. It's navigatable by draging down"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",16,"Click on ""Create"" button on the right corner",,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",17,"Go to expenses section and click on the ""Add"" button to create a new
+expense","Expense Type: Accommodation
+Date: 2075-05-25
+Note: Friday night
+Amount: 100.00","1. The data is accepted
+2. It shows a success warning"
+SCRUM-T16,"TC_RESPONSE_CLAIM_007: Verify the interface responsiveness for tablets in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/146.0.0.0 Safari/537.36
+
+If using Google Chrome Dev tools:
+Ipad, 1024x768, Fast 4G","This test case verifies that an administrator, using a tablet, with valid
+Employee data can successfully create a Claim Request when accessing the
+OrangeHRM system and be redirected to the Assigned Claim screen. This test
+verifies that the process of creating a Assigned Claim can be done in
+different screen size",18,Click on submit to finish creating,,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",1,Login in the plataform as the Admin account,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",2,"Go to Claim, in the menu section (The three lines next to the ""Dashboard"")",https://opensource-demo.orangehrmlive.com/web/index.php/claim,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation of opening and closing
+4. The button is pressable"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",3,"Go to Assign Claim section, clicking in ""More:""",https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. Clicking on it shows the features and Assign Claim feature
+5. It stays highlited and open until pressed"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",4,Insert a valid Employee Name,Insert the employee name that has been created of the pre condition,"1. The employee is encountered
+2. It's clickable to auto insert
+3. It is aligned with the other parts"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",5,Choose an Event in the list,Event: Accommodation,"1. There is available events in the list
+2. The events can be selected
+3. It's clickable to auto insert
+4. The list fits on the screen"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",6,Choose a Currency in the list,Currency: Brazillian Real,"1. There is available currency in the list
+2. The currency can be selected
+3. It's clickable to auto insert
+4. They are ordered alphabetically
+5. It's navigatable by draging down"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",7,"Click on ""Create"" button on the right corner",,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",8,"Go to expenses section and click on the ""Add"" button to create a new
+expense","Expense Type: Accommodation
+Date: 2075-05-25
+Note: Friday night
+Amount: 100.00","1. The data is accepted
+2. It shows a success warning"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",9,Click on submit to finish creating,,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",10,Login in the plataform as the Admin account,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",11,"Go to Claim, in the menu section (The three lines next to the ""Dashboard"")",https://opensource-demo.orangehrmlive.com/web/index.php/claim,"1. Website working properly
+2. The UI is visible and aligned
+3. It has its animation of opening and closing
+4. The button is pressable"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",12,"Go to Assign Claim section, clicking in ""More:""",https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. Clicking on it shows the features and Assign Claim feature
+5. It stays highlited and open until pressed"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",13,Insert a valid Employee Name,Insert the employee name that has been created of the pre condition,"1. The employee is encountered
+2. It's clickable to auto insert
+3. It is aligned with the other parts"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",14,Choose an Event in the list,Event: Accommodation,"1. There is available events in the list
+2. The events can be selected
+3. It's clickable to auto insert
+4. The list fits on the screen"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",15,Choose a Currency in the list,Currency: Brazillian Real,"1. There is available currency in the list
+2. The currency can be selected
+3. It's clickable to auto insert
+4. They are ordered alphabetically
+5. It's navigatable by draging down"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",16,"Click on ""Create"" button on the right corner",,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",17,"Go to expenses section and click on the ""Add"" button to create a new
+expense","Expense Type: Accommodation
+Date: 2075-05-25
+Note: Friday night
+Amount: 100.00","1. The data is accepted
+2. It shows a success warning"
+SCRUM-T17,"TC_RESPONSE_CLAIM_005: Verify the interface for smarthphones in the creation of a claim request with a valid Employee, events, and currency",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Go to the module: Claim > Assign Claim
+-
+
+7. Create the Employee into the database
+
+
+REQUIREMENTS
+1. TC_PIM_AddEmployee_001(positive): Verify the creation of an new
+employee by providing the mandatory data
+2. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+
+SYSTEM REQUIREMENTS
+If using Firefox devtools:
+Mozilla/5.0 (Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like
+Gecko) SamsungBrowser/14.2 Chrome/146.0.0.0 Mobile Safari/537.36
+
+If using Google Chrome Dev tools:
+Samsung Galaxy S8+, 360x740, Fast 4G","This test case verifies that an administrator, using a smarthphone, with
+valid Employee data can successfully create a Claim Request when accessing
+the OrangeHRM system and be redirected to the Assigned Claim screen. This
+test verifies that the process of creating a Assigned Claim can be done in
+different screen size",18,Click on submit to finish creating,,"1. The button can be pressed
+2. The data is accepted
+3. It shows a success warning
+4. Change to the Assign Claim screen
+5. It has a rapid response when pressed"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",1,Login in the plataform as the Admin account,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After logim will be redirected to the dashboard"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",2,Go to Claims in the menu bar,https://opensource-demo.orangehrmlive.com/web/index.php/claim,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. It takes less than 3 seconds to appear"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",3,"Go to Events in ""Configuration""",,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. ""Configuration"" shows the events clickable
+5. It takes less than 3 seconds to appear"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",4,"Go to Expense Type in ""Configuration""",,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. ""Configuration"" shows the Expense type clickable
+5. It takes less than 3 seconds to appear"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",5,Go to Submited claim,,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. It takes less than 3 seconds to appear"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",6,Go to My claim,,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. It takes less than 3 seconds to appear"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",7,Go to Employee claim,,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. It takes less than 3 seconds to appear"
+SCRUM-T18,TC_RESPONSE_CLAIM_008: Verify the response to each section in Claim takes less than 3 seconds to appear,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials","This test case verifies that the system changes the screen in about 3
+seconds when a administrator change the screen of the application . The
+test ensures a proper response time and rapid feedback",8,Go to Assign Claim,,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. It takes less than 3 seconds to appear"
+SCRUM-T19,TC_RESPONSE_CLAIM_009: Verify if the Employee claim take less than 5 seconds to appear to the admin,Approved,Low,"PRE-CONDITIONS
+Setup:
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Claim > Events > Expense Type > Submit Claim > My
+Claims > Employee Claims > Assign Claim
+6. Make sure there is a Claim created to the employee
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new
+employee record using mandatory fields
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator can view the assigned claims
+of employee in a good amount of time when they click on it in the OrangeHRM
+Demo. The test ensures a proper response time and rapid feedback",1,Login in the plataform as the Admin account,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After logim will be redirected to the dashboard"
+SCRUM-T19,TC_RESPONSE_CLAIM_009: Verify if the Employee claim take less than 5 seconds to appear to the admin,Approved,Low,"PRE-CONDITIONS
+Setup:
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Claim > Events > Expense Type > Submit Claim > My
+Claims > Employee Claims > Assign Claim
+6. Make sure there is a Claim created to the employee
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new
+employee record using mandatory fields
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator can view the assigned claims
+of employee in a good amount of time when they click on it in the OrangeHRM
+Demo. The test ensures a proper response time and rapid feedback",2,Go to Employee claim,,"1. Website working properly
+2. The UI is visible
+3. It has its animation"
+SCRUM-T19,TC_RESPONSE_CLAIM_009: Verify if the Employee claim take less than 5 seconds to appear to the admin,Approved,Low,"PRE-CONDITIONS
+Setup:
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Claim > Events > Expense Type > Submit Claim > My
+Claims > Employee Claims > Assign Claim
+6. Make sure there is a Claim created to the employee
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new
+employee record using mandatory fields
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a administrator can view the assigned claims
+of employee in a good amount of time when they click on it in the OrangeHRM
+Demo. The test ensures a proper response time and rapid feedback",3,"Click on ""View Details"" in the records found",,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. It takes less than 5seconds to appear
+5. It appear the list of the records of the employees"

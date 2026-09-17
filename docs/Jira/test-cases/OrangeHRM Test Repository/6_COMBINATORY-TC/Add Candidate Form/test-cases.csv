@@ -1,0 +1,1874 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",1,"Click on the ""First Name"" input box and type a valid name.",- First Name: TestingSir,1. The input field records and displays the text accurately.
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",2,"Click on the ""Middle Name"" input box and type a valid name.",- Middle Name: Hello,1. The input field records and displays the text accurately.
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",3,"Fill in the mandatory ""Last Name"" field with valid alphanumeric text.",- Last Name: Prado,1. The input field records and displays the text accurately.
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",4,"Enter a valid syntax email format inside the ""Email"" field box.",- Email: testing@jala.university,"1. The field accepts the text format without triggering validation
+warnings for email format."
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",5,"Select a vacancy avaiable on ""Vacancy"" list",- Vacancy: Junior Account Assistant,"1. It shows a list of vacancies
+2. You can select the vacancy on the list
+3. The vacancy choosen stays selected"
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",6,"Enter a valid alphanumeric cellnumber in ""Contact Number"" field",- Contact Number: 818288822,"1. The input field records and displays the text accurately.
+2. Doesn't trigger any invalid formats"
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",7,"Fill the ""Note"" section with some words",- Note: Hello world,1. The input field records and displays the text accurately.
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",8,"Click on ""Consent to keep data"" button to accept the terms",,"1. The button is clickable
+2. The button stays highlited when pressed"
+SCRUM-T66,"TC_PW_F_CREATE_Add-Candidate_001(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Valid, Empty, Empty, Empty, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+6. Navigate to the module: Recruitment > Candidates > + Add.
+7. Ensure the registration form is fully loaded.
+8. The following data is to be inserted in the form:
+* FirstName: Valid
+* Middle Name: Valid
+* Last Name: Valid
+* Vacancy: Selected
+* Email: Valid
+* Contact Number: Valid
+* Resume: Empty
+* Keywords: Empty
+* Date Of Application: Empty
+* Notes: Filled
+* Consent To Keep Data: Checked
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's happy path behavior
+for the job application form. It covers all required fields with valid data
+while intentionally leaving optional fields (Resume, Keywords, and Date of
+Application) empty, ensuring the form submits successfully without
+requiring every optional input to be filled",9,"Click on the graphical ""Save"" button located at the lower menu section.",,"1. The application processes the data successfully.
+
+2. A green success confirmation banner pop-up appears on screen.
+
+3. The system redirects user to the Candidate Profile Overview screen,
+rendering the full 30-character first name properly in the UI."
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",1,"Click on the ""First Name"" input box and type a valid name.",TestingSir,"1. The text box updates cleanly, displaying all 30 typed characters without
+truncation."
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",2,"Fill in the mandatory ""Middle Name"" field with valid alphanumeric text.",Passed,1. The input field records and displays the text accurately.
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",3,"Fill in the mandatory ""Last Name"" field with valid alphanumeric text.",Prado,1. The input field records and displays the text accurately.
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",4,"Enter a valid syntax email format inside the ""Email"" field box.",testing@jala.university,"1. The field accepts the text format without triggering validation
+warnings."
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",5,"Enter a valid ""Contact Number""",81882233422,"1. The number is accepted
+2. It shows in the screen"
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",6,"Enter a Docx archive on the ""Resume""",Insert the created file,"1. Shows the file name
+2. The file is processed"
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",7,"Enter a ""Keyword"" in the camp",Worker,1. The input field records and displays the text accurately.
+SCRUM-T67,"TC_PW_F_CREATE_Add-Candidate_002(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+6. Navigate to the module: Recruitment > Candidates > + Add.
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+
+Ensure the registration form is fully loaded.The following data is to be
+inserted in the form:
+* FirstName: Valid
+* MiddleName: Empty
+* LastName: Valid
+* Vacancy: Unassigned
+* Email: Valid
+* Contact Number: Valid
+* Resume: Docx
+* Keywords: Filled
+* Date Of Application: CurrentDate
+* Notes: Empty
+* Consent To Keep Data: Unchecked","This combination was selected to verify the system's validation behavior
+when a required selection field (Vacancy) is left unassigned, and the
+consent checkbox is unchecked, while all other fields contain valid or
+filled data, ensuring the form correctly blocks submission due to missing
+mandatory inputs.",8,"Click on the graphical ""Save"" button located at the lower menu section.",,"1. The application processes the data successfully.
+
+2. A green success confirmation banner pop-up appears on screen.
+
+3. The system redirects user to the Candidate Profile Overview screen,
+rendering the full 30-character first name properly in the UI."
+SCRUM-T68,"TC_PW_F_CREATE_Add-Candidate_003(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Selected, Valid, Valid, PDF, Filled, CurrentDate, Empty, Checked",Approved,High,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Empty
+
+* Last Name: Valid
+
+* Vacancy: Selected
+
+* Email: Valid
+
+* Contact Number: Valid
+
+* Resume: PDF Keywords: Filled
+
+* Date Of Application: CurrentDate
+
+* Notes: Empty
+
+* Consent To Keep Data: Checked","This combination was chosen to validate the system's ability to process a
+positive submission with the absolute minimum mandatory fields filled,
+leaving most optional fields empty or unassigned. It ensures the core
+functionality works without relying on optional data.",1,Fill in the mandatory text fields of the Candidate form.,"First Name: John
+
+Last Name: Doe
+
+Email: john.doe@example.com",The fields accept the inputs without errors
+SCRUM-T68,"TC_PW_F_CREATE_Add-Candidate_003(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Selected, Valid, Valid, PDF, Filled, CurrentDate, Empty, Checked",Approved,High,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Empty
+
+* Last Name: Valid
+
+* Vacancy: Selected
+
+* Email: Valid
+
+* Contact Number: Valid
+
+* Resume: PDF Keywords: Filled
+
+* Date Of Application: CurrentDate
+
+* Notes: Empty
+
+* Consent To Keep Data: Checked","This combination was chosen to validate the system's ability to process a
+positive submission with the absolute minimum mandatory fields filled,
+leaving most optional fields empty or unassigned. It ensures the core
+functionality works without relying on optional data.",2,"Leave the optional text and dropdown fields empty or unassigned as required
+by the combination.","Middle Name: Leave Empty
+
+Vacancy: Keep Unassigned
+
+Contact Number: Leave Empty",The fields remain blank/defaulted.
+SCRUM-T68,"TC_PW_F_CREATE_Add-Candidate_003(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Selected, Valid, Valid, PDF, Filled, CurrentDate, Empty, Checked",Approved,High,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Empty
+
+* Last Name: Valid
+
+* Vacancy: Selected
+
+* Email: Valid
+
+* Contact Number: Valid
+
+* Resume: PDF Keywords: Filled
+
+* Date Of Application: CurrentDate
+
+* Notes: Empty
+
+* Consent To Keep Data: Checked","This combination was chosen to validate the system's ability to process a
+positive submission with the absolute minimum mandatory fields filled,
+leaving most optional fields empty or unassigned. It ensures the core
+functionality works without relying on optional data.",3,Upload a valid resume file and fill in the keywords.,"Resume: valid_cv.pdf (size less than 1MB)
+
+Keywords: QA, Testing, Agile",The file is attached successfully and keywords are accepted.
+SCRUM-T68,"TC_PW_F_CREATE_Add-Candidate_003(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Selected, Valid, Valid, PDF, Filled, CurrentDate, Empty, Checked",Approved,High,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Empty
+
+* Last Name: Valid
+
+* Vacancy: Selected
+
+* Email: Valid
+
+* Contact Number: Valid
+
+* Resume: PDF Keywords: Filled
+
+* Date Of Application: CurrentDate
+
+* Notes: Empty
+
+* Consent To Keep Data: Checked","This combination was chosen to validate the system's ability to process a
+positive submission with the absolute minimum mandatory fields filled,
+leaving most optional fields empty or unassigned. It ensures the core
+functionality works without relying on optional data.",4,Ensure chronological and consent fields match the criteria.,"Date of Application: Leave Empty
+
+Notes: Leave Empty
+
+Consent to Keep Data: Unchecked",The fields are configured according to the test data.
+SCRUM-T68,"TC_PW_F_CREATE_Add-Candidate_003(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Selected, Valid, Valid, PDF, Filled, CurrentDate, Empty, Checked",Approved,High,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Empty
+
+* Last Name: Valid
+
+* Vacancy: Selected
+
+* Email: Valid
+
+* Contact Number: Valid
+
+* Resume: PDF Keywords: Filled
+
+* Date Of Application: CurrentDate
+
+* Notes: Empty
+
+* Consent To Keep Data: Checked","This combination was chosen to validate the system's ability to process a
+positive submission with the absolute minimum mandatory fields filled,
+leaving most optional fields empty or unassigned. It ensures the core
+functionality works without relying on optional data.",5,"Click on the ""Save"" button to submit the form.","Anything .docx, .doc, .odt, .pdf, .rtf, .txt up to 1MB","The form is processed successfully. The candidate record is created, and a
+success message is displayed."
+SCRUM-T69,"TC_PW_F_CREATE_Add-Candidate_004(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Empty, PDF, Empty, Empty, Filled, Unchecked",Approved,Normal,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Valid
+
+* Last Name: Valid
+
+* Vacancy: Unassigned
+
+* Email: Valid
+
+* Contact Number: Empty
+
+* Resume: PDF
+
+* Keywords: Empty
+
+* Date Of Application: Empty
+
+* Notes: Filled
+
+* Consent To Keep Data: Unchecked","This combination was chosen to verify that the form successfully processes
+a submission when optional elements like Vacancy, Contact Number, and
+Keywords are omitted, and Consent is unchecked, but a Middle Name and a PDF
+resume are provided. This ensures that these specific omissions do not
+block a valid candidate creation workflow.",1,Fill in the candidate's personal and contact information.,"First Name: Alice
+
+Middle Name: Leave Empty
+
+Last Name: Smith
+
+Vacancy: Select any available option
+
+Email: alice@example.com
+
+Contact Number: +558199999999",All text fields accept the data normally.
+SCRUM-T69,"TC_PW_F_CREATE_Add-Candidate_004(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Empty, PDF, Empty, Empty, Filled, Unchecked",Approved,Normal,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Valid
+
+* Last Name: Valid
+
+* Vacancy: Unassigned
+
+* Email: Valid
+
+* Contact Number: Empty
+
+* Resume: PDF
+
+* Keywords: Empty
+
+* Date Of Application: Empty
+
+* Notes: Filled
+
+* Consent To Keep Data: Unchecked","This combination was chosen to verify that the form successfully processes
+a submission when optional elements like Vacancy, Contact Number, and
+Keywords are omitted, and Consent is unchecked, but a Middle Name and a PDF
+resume are provided. This ensures that these specific omissions do not
+block a valid candidate creation workflow.",2,Upload a resume file that explicitly exceeds the 1MB limit.,Resume: large_file.pdf (Size: 5MB),"The system should display a validation error message immediately or upon
+saving (e.g., ""File size exceeds limit"")."
+SCRUM-T69,"TC_PW_F_CREATE_Add-Candidate_004(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Empty, PDF, Empty, Empty, Filled, Unchecked",Approved,Normal,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Valid
+
+* Last Name: Valid
+
+* Vacancy: Unassigned
+
+* Email: Valid
+
+* Contact Number: Empty
+
+* Resume: PDF
+
+* Keywords: Empty
+
+* Date Of Application: Empty
+
+* Notes: Filled
+
+* Consent To Keep Data: Unchecked","This combination was chosen to verify that the form successfully processes
+a submission when optional elements like Vacancy, Contact Number, and
+Keywords are omitted, and Consent is unchecked, but a Middle Name and a PDF
+resume are provided. This ensures that these specific omissions do not
+block a valid candidate creation workflow.",3,"Input a date that is ahead of the current date in the application date
+field, fill notes, and check consent.","Keywords: Automation
+
+Date of Application: 12/25/2027 (Future Date)
+
+Notes: Testing constraints
+
+Consent to Keep Data: Checked",The future date is inputted into the field.
+SCRUM-T69,"TC_PW_F_CREATE_Add-Candidate_004(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Empty, PDF, Empty, Empty, Filled, Unchecked",Approved,Normal,"PRE-CONDITIONSNavigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTSNavigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded. The following data is to be
+inserted in the form:
+
+* FirstName: Valid
+
+* Middle Name: Valid
+
+* Last Name: Valid
+
+* Vacancy: Unassigned
+
+* Email: Valid
+
+* Contact Number: Empty
+
+* Resume: PDF
+
+* Keywords: Empty
+
+* Date Of Application: Empty
+
+* Notes: Filled
+
+* Consent To Keep Data: Unchecked","This combination was chosen to verify that the form successfully processes
+a submission when optional elements like Vacancy, Contact Number, and
+Keywords are omitted, and Consent is unchecked, but a Middle Name and a PDF
+resume are provided. This ensures that these specific omissions do not
+block a valid candidate creation workflow.",4,"Click on the ""Save"" button to attempt submission.",testing@jala.university,"The submission is blocked. The system highlights the invalid fields (Resume
+and/or Date) with appropriate error messages. No record is created."
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",1,"Navigate to the ""Add Candidate"" form within the Recruitment module",,"The ""Add Candidate"" web form is fully loaded and displayed."
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",2,"Input the candidate's First Name, Middle Name, and Last Name in the
+respective text fields.","First Name: ""Deyslane""
+
+Middle Name: ""Rodrigues""
+
+Last Name: ""Santos""",The name fields are successfully populated with the entered strings.
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",3,Click the Vacancy dropdown and select an available open position.,"Vacancy: ""Software Engineer"" (or any valid option)",The selected vacancy is displayed in the dropdown field.
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",4,Input a valid Email address.,testing@jala.university,The email text field is successfully populated.
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",5,"Click the browse button in the Resume field and upload a valid Word
+document.",Resume: curriculo_deyslane.docx,"The file name is displayed in the UI, indicating a successful attachment."
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",6,Input the current date into the Date of Application field.,"Date: ""2026-05-30""",The date field reflects the current date format correctly.
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",7,"Click on the ""Consent to keep data"" checkbox.",Worker,The checkbox is visually ticked.
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",8,"Verify that the Contact Number, Keywords, and Notes fields are left
+entirely blank.",,The fields remain empty
+SCRUM-T70,"TC_PW_F_CREATE_Add-Candidate_005 (positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Selected, Valid, Empty, Docx, Empty, CurrentDate, Empty, Checked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+FirstName: Valid
+MiddleName: Valid
+LastName: Valid
+Vacancy: Selected
+Email: Valid
+Contact Number: Empty
+Resume: Docx
+Keywords: Empty
+Date Of Application: CurrentDate
+Notes: Empty
+Consent To Keep Data: Checked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",9,"Click on the graphical ""Save"" button located at the lower menu section.",,"1. The application processes the data successfully.
+
+2. A green success confirmation banner pop-up appears on screen.
+
+3. The system redirects user to the Candidate Profile Overview screen,
+rendering the full 30-character first name properly in the UI."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",1,"Click inside the text container field labeled ""First Name"" and type a valid
+name string.",First Name: Lucas,"The text field updates cleanly and displays the characters ""Lucas"" inside."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",2,"Select the ""Middle Name"" input field box and enter a valid text string.",Middle Name: Gabriel,The system records and displays the middle name characters.
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",3,"Click inside the field box labeled ""Last Name"" and type a valid surname.",Last Name: Ferreira,"The surname string is locked and displayed perfectly in the field layout
+block."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",4,"Click on the ""Vacancy"" dropdown container component and click to select an
+entry item from the list framework.",Software Engineer,"The dropdown expands, handles selection, closes, and locks ""Software
+Engineer"" as the active value."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",5,"Click inside the ""Email"" field and input a syntactically correct text
+structure.",Email: lucas@teste.com,The input updates cleanly to reflect the email entry string.
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",6,"Skip the ""Contact Number"" input text box completely, leaving it blank.",,"The input layout remains blank, and no dynamic formatting errors are
+triggered."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",7,"Leave the ""Resume"" file attachment component unselected, bypassing any
+upload window triggers.",,"No files are bound to the form session, and the profile remains
+placeholder-only without errors."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",8,"Click inside the ""Keywords"" tag box element and type comma-separated values
+.","QA, Pairwise","The entries are parsed and locked visually inside the keyword tracking
+layout wrapper."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",9,"Click on the ""Date of Application"" calendar picker field and select or type
+the target date.",05-31-2026,The date string component updates to display the selected date matrix.
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",10,"Click inside the ""Notes"" multi-line text block container and enter
+descriptive testing statements.","""Test if value is accepted""","The block wrapper displays the multiline text strings cleanly without
+errors."
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",11,"Inspect the ""Consent to keep data"" checkbox component flag to ensure it is
+unchecked",Unchecked,The option layout stays in a clear unchecked default configuration state.
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",12,Leave Consent To Keep Data unchecked,,Field remains unchecked
+SCRUM-T71,TC_RECRUITMENT_COMBINATORY_009(positive): Verify candidate form processing with populated keywords and notes while omitting phone and file attachments,Approved,Normal,"Pre-conditions:
+
+1. User is logged into the application interface with active
+administrative roles.
+
+2. User has system access privileges to modify the Recruitment core
+module layout.
+
+3. Currently sitting on the Recruitment -> Candidates page overview.
+
+4. Clicked the operational ""+ Add"" button tool to load the Add Candidate
+matrix sheet.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine handles partial data structures correctly. It ensures
+compliance when all mandatory fields are valid, a target vacancy is
+selected, keywords and notes are populated, while contact numbers and files
+are left completely empty.",13,"Move your primary pointing device to the lower menu strip and click on the
+""Save"" action button.",,"The core candidate profile parsing database layer processes the partial
+payload, matches data safety rules, and persists the entity, returning a
+green success indicator pop-up on screen."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",1,Open the Add Candidate form matrix layout.,Test,"The registration sheet container is fully rendered and displayed
+successfully on screen."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",2,"Click inside the text container field labeled ""First Name"" and enter a
+valid name string.",First Name: Test,"The field accepts the characters ""Test"" and renders them inside the
+workspace layout."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",3,"Skip the ""Middle Name"" input box entirely, keeping it clear of characters.",,"The text element remains empty, and no premature validation errors are
+displayed."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",4,"Click inside the field box labeled ""Last Name"" and input a valid surname
+text string.",Last Name: Final,"The data string is locked and displayed perfectly within the surname box
+boundaries."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",5,"Bypass the ""Vacancy"" dropdown selection component, leaving it in its
+default unassigned status.",,"The selection tracking element remains unassigned without breaking the page
+logic."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",6,"Focus on the ""Email"" field and type a structurally valid email syntax
+address.",Email: test@final.com,"The string ""test@final.com"" is accepted cleanly by the input handler."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",7,"Leave the ""Contact Number"" input container field completely empty.",,No validation errors or format alerts appear under the phone block area.
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",8,"Click on the ""Resume"" file attachment upload area, trigger the operating
+system explorer window, and select a valid Microsoft Word document file.",test.docx,"The application's file listener parses the metadata, accepts the file size
+and extension, and attaches the file wrapper to the session successfully."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",9,"Click inside the ""Keywords"" field box and input tracking tag values.","QA, Pairwise","The values are processed and visually encapsulated inside the keywords
+layout wrapper."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",10,"Skip the ""Date of Application"" input box, leaving the data placeholder
+completely empty.",,"No errors pop up; the system defaults to empty or logs the current
+processing execution date stamp behind the scenes."
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",11,"Pass over the ""Notes"" text area box, ensuring no characters are input.",,The text area frame remains blank and unedited.
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",12,"Verify that the ""Consent to keep data"" checkbox verification tool remains
+unchecked.",Unchecked,The interface box layout stays in an unselected default state.
+SCRUM-T72,TC_RECRUITMENT_COMBINATORY_010(positive): Verify candidate form processing with mandatory fields and valid DOCX resume upload while omitting optional metrics,Approved,Normal,"Pre-conditions:
+1. User is logged into the application interface with active
+administrative roles.
+2. User has system access privileges to modify the Recruitment core
+module layout.
+3. Currently sitting on the Recruitment -> Candidates page overview.
+4. Clicked the operational ""+ Add"" button tool to open the Add Candidate
+form view.
+
+Requeriments:
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case uses pairwise testing matrices to verify that the Candidate
+creation engine successfully processes a registration when only the
+absolute mandatory customer fields are provided along with a valid .docx
+format resume file attachment.",13,"Navigate to the lower control action menu and click on the ""Save"" execution
+button.",,"The backend relational databases process the combined partial payload
+structure successfully, persist the record, and present a green
+confirmation success pop-up banner on screen."
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",1,"Navigate to the ""Add Candidate"" form within the Recruitment module",,"The ""Add Candidate"" web form is fully loaded and displayed."
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",2,"Input the candidate's First Name and Last Name. Leave the Middle Name
+blank.","First Name: ""Deyslane""
+
+Last Name: ""Santos""","The first and last name fields are populated. The middle name remains
+empty."
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",3,"Verify that the Vacancy dropdown is left in its default, unassigned state.","Vacancy: ""Software Engineer"" (or any valid option)",The dropdown displays the default unassigned placeholder.
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",4,Input a valid Email address.,testing@jala.university,The email text field is successfully populated.
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",5,Input valid strings into the Keywords and Notes text fields.,"Keywords: ""QA, Test Automation, Pairwise""
+
+Notes: ""Candidate available for immediate start in the QA department.""",The text areas are populated with the corresponding entered strings.
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",6,"Verify that the ""Consent to keep data"" checkbox is left unchecked.","Date: ""2026-05-30""",The checkbox remains unticked.
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",7,"Verify that the Contact Number, Resume, and Date of Application fields are
+left entirely blank.",Worke,The input fields and attachment section remain empty.
+SCRUM-T73,"TC_PW_F_CREATE_Add-Candidate_006 (positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Empty, Empty, Filled, Empty, Filled, Unchecked.",Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials (Username: Admin /
+Password: admin123).
+
+REQUIREMENTS
+
+Navigate to the module: Recruitment > Candidates > + Add.
+Ensure the registration form is fully loaded.
+
+The following data is to be inserted in the form:
+
+
+FirstName: Valid
+MiddleName: Empty
+LastName: Valid
+Vacancy: Unassigned
+Email: Valid
+Contact Number: Empty
+Resume: Empty
+Keywords: Filled
+Date Of Application: Empty
+Notes: Filled
+Consent To Keep Data: Unchecked","This combination was chosen to make sure the form works as expected if most
+of the common data is inserted and valid. This test is to grant a test
+scenario where most of the fields work with valid formats accepted.",8,"Click on the graphical ""Save"" button located at the lower menu section.",,"1. The application processes the data successfully.
+
+2. A green success confirmation banner pop-up appears on screen.
+
+3. The system redirects user to the Candidate Profile Overview screen,
+rendering the full 30-character first name properly in the UI."

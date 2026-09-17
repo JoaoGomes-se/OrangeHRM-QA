@@ -1,0 +1,112 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T74,TC_REC_Candidate_Name_001 (negative): Verify system rejects full name formats with invalid or special characters,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, rejecting invalid or special characters (such as numbers
+or symbols). This ensures that this variable is validating input data
+properly and with minimal defects.",1,"Navigate to the candidate registration/edit screen and locate the
+Candidate Name field.",0,"The screen loads correctly, and the field is editable."
+SCRUM-T74,TC_REC_Candidate_Name_001 (negative): Verify system rejects full name formats with invalid or special characters,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, rejecting invalid or special characters (such as numbers
+or symbols). This ensures that this variable is validating input data
+properly and with minimal defects.",2,Enter a name containing special characters or symbols.,!@#!@#!@#,"The system triggers a validation error indicating that special characters
+are not allowed (e.g., ""Invalid name format"")."
+SCRUM-T74,TC_REC_Candidate_Name_001 (negative): Verify system rejects full name formats with invalid or special characters,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, rejecting invalid or special characters (such as numbers
+or symbols). This ensures that this variable is validating input data
+properly and with minimal defects.",3,Clear the field and enter a name containing numbers.,9999999999999999999999999,The system blocks submission and displays a validation error.
+SCRUM-T74,TC_REC_Candidate_Name_001 (negative): Verify system rejects full name formats with invalid or special characters,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, rejecting invalid or special characters (such as numbers
+or symbols). This ensures that this variable is validating input data
+properly and with minimal defects.",4,Try to save the form with any of the invalid inputs above.,99999999999999999999999999,"The form cannot be submitted, data is not saved to the database, and the
+user is prompted to correct the field."
+SCRUM-T75,TC_REC_Candidate_Name_002 (negative): Verify system trims leading and trailing whitespaces from the candidate name field,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, trimming any leading and trailing whitespaces upon
+saving. This ensures that this variable is processing strings properly and
+preventing layout or search defects.",1,"Navigate to the candidate registration/edit screen and locate the
+Candidate Name field",0,"The screen loads correctly, and the field is editable."
+SCRUM-T75,TC_REC_Candidate_Name_002 (negative): Verify system trims leading and trailing whitespaces from the candidate name field,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, trimming any leading and trailing whitespaces upon
+saving. This ensures that this variable is processing strings properly and
+preventing layout or search defects.",2,Enter a valid name containing intentional spaces before and after the text.,John Doe,The system temporarily accepts the input with spaces during typing.
+SCRUM-T75,TC_REC_Candidate_Name_002 (negative): Verify system trims leading and trailing whitespaces from the candidate name field,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, trimming any leading and trailing whitespaces upon
+saving. This ensures that this variable is processing strings properly and
+preventing layout or search defects.",3,Save or submit the form.,9999999999999999999999999,"The registration is successful. Upon verifying the saved profile (or
+database), the name must be trimmed: John Doe."
+SCRUM-T75,TC_REC_Candidate_Name_002 (negative): Verify system trims leading and trailing whitespaces from the candidate name field,Approved,Normal,"PRE CONDITIONS
+
+1. Log in in the OrangeHRM
+
+
+2. Use admin account user: Admin password: admin123
+
+REQUIREMENTS
+
+Recruitment > Add Candidate > Full Name (Variable)","This test verifies if the Candidate Name variable behaves as stated in the
+domain test table, trimming any leading and trailing whitespaces upon
+saving. This ensures that this variable is processing strings properly and
+preventing layout or search defects.",4,"Edit the field again, enter only the character zero (with or without
+spaces), and attempt to save.",0 or 0,"Refused
+Reason: Is more than 25 characters"

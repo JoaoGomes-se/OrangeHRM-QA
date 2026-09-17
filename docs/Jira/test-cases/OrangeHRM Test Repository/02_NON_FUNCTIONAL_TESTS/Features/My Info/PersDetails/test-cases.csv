@@ -1,0 +1,586 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T52,TC_MYINFO_Attachments_007(Security): Verify system blocks the upload of executable files to prevent malware,Approved,High,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Have a dummy executable file created on your local computer (e.g.,
+create a text file and rename it to malware.exe).
+
+
+REQUIREMENTS
+1. System shall restrict file uploads to safe extensions only (e.g.,
+PDF, JPG, PNG, DOCX).
+
+2. System shall block executable files (.exe, .bat, .sh) and immediately
+display an error warning.
+
+3. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the attachment feature strictly validates file
+extensions and MIME types, actively blocking potentially dangerous
+executable files from being uploaded to the server.",1,"Click ""My Info"" menu > Scroll down to the ""Attachments"" section",,"1. The Attachments table is visible.
+
+2. The ""+ Add"" button is available."
+SCRUM-T52,TC_MYINFO_Attachments_007(Security): Verify system blocks the upload of executable files to prevent malware,Approved,High,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Have a dummy executable file created on your local computer (e.g.,
+create a text file and rename it to malware.exe).
+
+
+REQUIREMENTS
+1. System shall restrict file uploads to safe extensions only (e.g.,
+PDF, JPG, PNG, DOCX).
+
+2. System shall block executable files (.exe, .bat, .sh) and immediately
+display an error warning.
+
+3. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the attachment feature strictly validates file
+extensions and MIME types, actively blocking potentially dangerous
+executable files from being uploaded to the server.",2,"Click the ""+ Add"" button",,"1. The upload form expands smoothly.
+
+2. ""Browse"" button and ""Comment"" text area are visible."
+SCRUM-T52,TC_MYINFO_Attachments_007(Security): Verify system blocks the upload of executable files to prevent malware,Approved,High,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Have a dummy executable file created on your local computer (e.g.,
+create a text file and rename it to malware.exe).
+
+
+REQUIREMENTS
+1. System shall restrict file uploads to safe extensions only (e.g.,
+PDF, JPG, PNG, DOCX).
+
+2. System shall block executable files (.exe, .bat, .sh) and immediately
+display an error warning.
+
+3. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the attachment feature strictly validates file
+extensions and MIME types, actively blocking potentially dangerous
+executable files from being uploaded to the server.",3,Select a malicious executable file,,1. The file name malware.exe appears next to the browse button.
+SCRUM-T52,TC_MYINFO_Attachments_007(Security): Verify system blocks the upload of executable files to prevent malware,Approved,High,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Have a dummy executable file created on your local computer (e.g.,
+create a text file and rename it to malware.exe).
+
+
+REQUIREMENTS
+1. System shall restrict file uploads to safe extensions only (e.g.,
+PDF, JPG, PNG, DOCX).
+
+2. System shall block executable files (.exe, .bat, .sh) and immediately
+display an error warning.
+
+3. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the attachment feature strictly validates file
+extensions and MIME types, actively blocking potentially dangerous
+executable files from being uploaded to the server.",4,Enter a deceptive comment,Comment: Important Employee Document,1. The text is entered correctly in the comment box.
+SCRUM-T52,TC_MYINFO_Attachments_007(Security): Verify system blocks the upload of executable files to prevent malware,Approved,High,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Have a dummy executable file created on your local computer (e.g.,
+create a text file and rename it to malware.exe).
+
+
+REQUIREMENTS
+1. System shall restrict file uploads to safe extensions only (e.g.,
+PDF, JPG, PNG, DOCX).
+
+2. System shall block executable files (.exe, .bat, .sh) and immediately
+display an error warning.
+
+3. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the attachment feature strictly validates file
+extensions and MIME types, actively blocking potentially dangerous
+executable files from being uploaded to the server.",5,"Click ""Save"" button",,"1. The system blocks the upload process.
+
+2. A validation error message is displayed (e.g., ""File type not allowed""
+or similar warning).
+
+3. The malicious file is NOT added to the attachments list table."
+SCRUM-T53,TC_MYINFO_PersDetails_006(Security): Verify system sanitizes input to prevent Cross-Site Scripting,Approved,High,"pre conditions
+
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+
+Requiriments
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the application properly sanitizes user input
+in the ""Personal Details"" form. It ensures that malicious JavaScript
+payloads cannot be stored in the database and executed in the browser
+(Stored XSS vulnerability).",1,"Navigate to the target moduleClick ""My Info"" menu",,"1. The ""Personal Details"" screen is fully loaded.
+
+2. The employee's personal information fields are visible and editable."
+SCRUM-T53,TC_MYINFO_PersDetails_006(Security): Verify system sanitizes input to prevent Cross-Site Scripting,Approved,High,"pre conditions
+
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+
+Requiriments
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the application properly sanitizes user input
+in the ""Personal Details"" form. It ensures that malicious JavaScript
+payloads cannot be stored in the database and executed in the browser
+(Stored XSS vulnerability).",2,Inject malicious payload into Middle Name field,,1. The input field accepts the text characters without crashing the UI.
+SCRUM-T53,TC_MYINFO_PersDetails_006(Security): Verify system sanitizes input to prevent Cross-Site Scripting,Approved,High,"pre conditions
+
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+
+Requiriments
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the application properly sanitizes user input
+in the ""Personal Details"" form. It ensures that malicious JavaScript
+payloads cannot be stored in the database and executed in the browser
+(Stored XSS vulnerability).",3,"Click ""Save"" button",,"1. A success message (e.g., ""Successfully Updated"") is displayed.
+
+2. No alert box pops up on the screen immediately."
+SCRUM-T53,TC_MYINFO_PersDetails_006(Security): Verify system sanitizes input to prevent Cross-Site Scripting,Approved,High,"pre conditions
+
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+
+Requiriments
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that the application properly sanitizes user input
+in the ""Personal Details"" form. It ensures that malicious JavaScript
+payloads cannot be stored in the database and executed in the browser
+(Stored XSS vulnerability).",4,Verify Stored XSS prevention Press F5 or Ctrl+R to refresh the browser,,"1. The page reloads successfully.
+
+2. CRITICAL: The JavaScript alert box does NOT execute.
+
+3. The payload is displayed purely as plain text in the ""Nickname"" field,
+proving the input was safely sanitized."
+SCRUM-T54,TC_MYINFO_Save_008(Response time): Verify response time when saving updates in Personal Details,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system processes data updates and provides
+immediate feedback (success toast message) to the user quickly, avoiding
+double-clicks or confusion.",1,"Click ""My Info"" menu > Click ""Personal Details"" tab",,"1. The ""Personal Details"" screen is fully loaded."
+SCRUM-T54,TC_MYINFO_Save_008(Response time): Verify response time when saving updates in Personal Details,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system processes data updates and provides
+immediate feedback (success toast message) to the user quickly, avoiding
+double-clicks or confusion.",2,Modify a simple text field,987654321,1. The input field accepts the new number.
+SCRUM-T54,TC_MYINFO_Save_008(Response time): Verify response time when saving updates in Personal Details,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system processes data updates and provides
+immediate feedback (success toast message) to the user quickly, avoiding
+double-clicks or confusion.",3,"Click ""Save"" button AND start a stopwatch simultaneously",,"1. The system begins processing the request (a loading spinner might appear
+briefly)."
+SCRUM-T54,TC_MYINFO_Save_008(Response time): Verify response time when saving updates in Personal Details,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system processes data updates and provides
+immediate feedback (success toast message) to the user quickly, avoiding
+double-clicks or confusion.",4,Stop the stopwatch when the success message appears,,1. The text is entered correctly in the comment box.
+SCRUM-T55,TC_MYINFO_Load_009(Response time): Verify the initial load time of the My Info module,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the main My Info page (Personal Details) fully
+loads and renders all elements within an acceptable timeframe under normal
+network conditions.",1,Open browser Developer Tools (F12) > Go to Network tab,,1. Network tab is ready to record the page load metrics.
+SCRUM-T55,TC_MYINFO_Load_009(Response time): Verify the initial load time of the My Info module,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the main My Info page (Personal Details) fully
+loads and renders all elements within an acceptable timeframe under normal
+network conditions.",2,"Click ""My Info"" menu on the sidebar",,1. The browser initiates the request to load the module.
+SCRUM-T55,TC_MYINFO_Load_009(Response time): Verify the initial load time of the My Info module,Approved,Normal,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the main My Info page (Personal Details) fully
+loads and renders all elements within an acceptable timeframe under normal
+network conditions.",3,"Check the ""Load"" time or use a stopwatch",,"1. The ""Personal Details"" screen renders completely.
+
+2. All UI elements (profile picture, text fields, buttons) are visible and
+interactive.
+
+3. CRITICAL: The total loading time is less than 3 seconds."
+SCRUM-T56,TC_MYINFO_Mobile_010(Responsiveness): Verify left sidebar collapses into a hamburger menu on mobile viewports,Approved,Normal,"PRE-CONDITIONS
+1. Clear browser cache before login.
+
+2. Have a stable internet connection.
+
+3. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Open the browser Developer Tools (Press F12) and enable ""Device
+Toolbar"".
+
+
+REQUIREMENTS
+
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that multi-column form layouts in the My Info
+section adapt to single-column layouts on smaller viewports, providing a
+seamless user experience without requiring horizontal scrolling.",1,"Click ""My Info"" menu",,"1. The ""Personal Details"" screen is fully loaded on desktop view."
+SCRUM-T56,TC_MYINFO_Mobile_010(Responsiveness): Verify left sidebar collapses into a hamburger menu on mobile viewports,Approved,Normal,"PRE-CONDITIONS
+1. Clear browser cache before login.
+
+2. Have a stable internet connection.
+
+3. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Open the browser Developer Tools (Press F12) and enable ""Device
+Toolbar"".
+
+
+REQUIREMENTS
+
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that multi-column form layouts in the My Info
+section adapt to single-column layouts on smaller viewports, providing a
+seamless user experience without requiring horizontal scrolling.",2,Resize viewport to mobile size,"Width: 375px
+
+Height: 667px
+
+(e.g., iPhone SE dimensions)","1. The layout adjusts immediately.
+
+2. The left sidebar menu disappears completely.
+
+3. A Hamburger menu icon (three horizontal lines) appears on the top
+right/left corner."
+SCRUM-T56,TC_MYINFO_Mobile_010(Responsiveness): Verify left sidebar collapses into a hamburger menu on mobile viewports,Approved,Normal,"PRE-CONDITIONS
+1. Clear browser cache before login.
+
+2. Have a stable internet connection.
+
+3. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Open the browser Developer Tools (Press F12) and enable ""Device
+Toolbar"".
+
+
+REQUIREMENTS
+
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that multi-column form layouts in the My Info
+section adapt to single-column layouts on smaller viewports, providing a
+seamless user experience without requiring horizontal scrolling.",3,Click the Hamburger menu icon,,"1. The ""Personal Details"" screen renders completely.
+
+2. All UI elements (profile picture, text fields, buttons) are visible and
+interactive.
+
+3. CRITICAL: The total loading time is less than 3 seconds."
+SCRUM-T57,TC_MYINFO_Tablet_011(Responsiveness): Verify form fields stack vertically on smaller screens to prevent horizontal scrolling,Approved,Normal,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Open the browser Developer Tools (Press F12) and enable ""Device
+Toolbar"".
+
+
+REQUIREMENTS
+
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that multi-column form layouts in the My Info
+section adapt to single-column layouts on smaller viewports, providing a
+seamless user experience without requiring horizontal scrolling.",1,"Click ""My Info"" menu > Click ""Personal Details"" tab",,"1. The form is loaded.
+
+2. Observe that fields like ""First Name"", ""Middle Name"", and ""Last Name""
+are displayed side-by-side on large screens."
+SCRUM-T57,TC_MYINFO_Tablet_011(Responsiveness): Verify form fields stack vertically on smaller screens to prevent horizontal scrolling,Approved,Normal,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Open the browser Developer Tools (Press F12) and enable ""Device
+Toolbar"".
+
+
+REQUIREMENTS
+
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that multi-column form layouts in the My Info
+section adapt to single-column layouts on smaller viewports, providing a
+seamless user experience without requiring horizontal scrolling.",2,Resize viewport to tablet portrait,"Width: 768px
+
+Height: 1024px","1. The layout responds to the new dimensions.
+
+2. Form inputs (e.g., the name fields or date fields) stack vertically,
+taking up the full width of the container."
+SCRUM-T57,TC_MYINFO_Tablet_011(Responsiveness): Verify form fields stack vertically on smaller screens to prevent horizontal scrolling,Approved,Normal,"PRE-CONDITIONS
+1. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+2. Clear browser cache before login.
+
+3. Have a stable internet connection.
+
+4. Navigate to
+
+
+5. Ensure that you are logged in with Admin or employee account.
+
+1. Username: Admin
+
+2. Password: admin123
+
+6. Open the browser Developer Tools (Press F12) and enable ""Device
+Toolbar"".
+
+
+REQUIREMENTS
+
+* TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that multi-column form layouts in the My Info
+section adapt to single-column layouts on smaller viewports, providing a
+seamless user experience without requiring horizontal scrolling.",3,"Verify absence of horizontal scrolling, try to scroll left and right using
+touch emulation or mouse",,"1. The ""Personal Details"" screen renders completely.
+
+2. All UI elements (profile picture, text fields, buttons) are visible and
+interactive.
+
+3. CRITICAL: The total loading time is less than 3 seconds."

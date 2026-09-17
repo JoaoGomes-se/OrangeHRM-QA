@@ -1,0 +1,78 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T48,TC_ADMIN_ACCESS_001(negative/security): Verify non-admin user is blocked from bypassing role restrictions via direct URL navigation,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use standard ESS credentials:
+
+1. Username: ess.user
+
+2. Password: ess_password123
+
+5. User is currently authenticated and viewing their default employee
+dashboard screen.
+
+Requirements:
+
+* TC_AUTH_LOGIN_006(Positive): Verify successful login with valid
+standard ESS credentials.","This test case verifies that a standard employee account with standard ESS
+privileges cannot bypass role-based security filters by directly inserting
+administrative route paths into the browser's navigation bar, ensuring
+secure boundary isolation.",1,"Move your pointer device to the top of the browser framework and click
+inside the address/URL container bar to highlight the current active link.",,"The current dashboard link path is selected, and the text component is
+highlighted, accepting input."
+SCRUM-T48,TC_ADMIN_ACCESS_001(negative/security): Verify non-admin user is blocked from bypassing role restrictions via direct URL navigation,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use standard ESS credentials:
+
+1. Username: ess.user
+
+2. Password: ess_password123
+
+5. User is currently authenticated and viewing their default employee
+dashboard screen.
+
+Requirements:
+
+* TC_AUTH_LOGIN_006(Positive): Verify successful login with valid
+standard ESS credentials.","This test case verifies that a standard employee account with standard ESS
+privileges cannot bypass role-based security filters by directly inserting
+administrative route paths into the browser's navigation bar, ensuring
+secure boundary isolation.",2,"Delete the current URL string, paste the direct restricted endpoint path to
+the system user management list, and press the physical Enter key.",<https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers>,"The client browser initiates a network GET request targeting the
+administrative component endpoint."
+SCRUM-T48,TC_ADMIN_ACCESS_001(negative/security): Verify non-admin user is blocked from bypassing role restrictions via direct URL navigation,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use standard ESS credentials:
+
+1. Username: ess.user
+
+2. Password: ess_password123
+
+5. User is currently authenticated and viewing their default employee
+dashboard screen.
+
+Requirements:
+
+* TC_AUTH_LOGIN_006(Positive): Verify successful login with valid
+standard ESS credentials.","This test case verifies that a standard employee account with standard ESS
+privileges cannot bypass role-based security filters by directly inserting
+administrative route paths into the browser's navigation bar, ensuring
+secure boundary isolation.",3,"Observe the visual layout of the page rendered on screen by the application
+routing layer.",,"The security filter layer intercepts the request and denies data access.
+The application MUST NOT render the administrative system user data grid.
+Instead, it securely redirects the viewport back to the dashboard or
+renders a generic ""Credential Required"" error page layout layer."

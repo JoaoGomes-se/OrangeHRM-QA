@@ -1,0 +1,771 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",1,Login in the plataform as the employee with the assigned claim,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",2,Go to the Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remainshighlighted"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",3,"On the Records list, click on the ""View Details"" of the assigned claim",,"1. The list shows the claim created by the admin as listed in the
+pre-conditions
+2. The button is clickable"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",4,Copy the full URL from the address bar,- URL: Copied url (since is unique),1. The url shows the Claim Id
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",5,Click on your icon on right-top of the screen > logout,,"1. The user is logged out from the session
+2. Appear the Auth/login module"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",6,Login in the plataform as the employee without the assigned claim,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",7,Paste the URL copied in the adress bar,- URL that has been copied (since is unique),"1. It shows a warning
+2. The employee is blocked from viewing"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",8,Login in the plataform as the employee with the assigned claim,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",9,Go to the Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remainshighlighted"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",10,"On the Records list, click on the ""View Details"" of the assigned claim",,"1. The list shows the claim created by the admin as listed in the
+pre-conditions
+2. The button is clickable"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",11,Copy the full URL from the address bar,- URL: Copied url (since is unique),1. The url shows the Claim Id
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",12,Click on your icon on right-top of the screen > logout,,"1. The user is logged out from the session
+2. Appear the Auth/login module"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",13,Login in the plataform as the employee without the assigned claim,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T39,TC_SECURITY_CLAIM_004: Verify the access to the user is denied  with the attempt to view a non-owned claim request,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to
+4. Ensure that you are logged in with Admin or employee
+5. For the Admin. Use Admin data:
+- Username: Admin
+- Password: admin123
+
+6.For the employee. Create the Employee into the database and use it
+(as stated in the requirements)
+7. Ensure that you have access to at least 2 different employee
+accounts
+8. Create an Assign Claim with the admin for one of the accounts
+
+REQUIREMENTS
+
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+- TC_PIM_AddEmployee_001(positive): Verify the creation of an new employee
+by providing the mandatory data
+- TC_CLAIM_AssignClaim_001(positive): Verify successful creation of claim
+request with valid Employee, events, and currency","This test case verifies that a claim created by an user cannot be accessed
+by a different user when they put it's URL or claim id on the address bar.
+This test ensures the authorization is secured for the claim's user data.",14,Paste the URL copied in the adress bar,- URL that has been copied (since is unique),"1. It shows a warning
+2. The employee is blocked from viewing"
+SCRUM-T40,"TC_USABILITY_CLAIM_010: Verify every button icon in ""Claim"" menu's section with the same uniform pattern",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons in the Claim section stays
+highlited and appear as properly when the admin access the module. This
+test ensures the user interface stays apropriate and standardized",1,Login in the plataform as the employee with the assigned claim,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T40,"TC_USABILITY_CLAIM_010: Verify every button icon in ""Claim"" menu's section with the same uniform pattern",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons in the Claim section stays
+highlited and appear as properly when the admin access the module. This
+test ensures the user interface stays apropriate and standardized",2,View the menu section,,"1. The claim section is not highlited
+2. The claim section appear on the menu
+3. The claim section has a icon next to his name"
+SCRUM-T40,"TC_USABILITY_CLAIM_010: Verify every button icon in ""Claim"" menu's section with the same uniform pattern",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons in the Claim section stays
+highlited and appear as properly when the admin access the module. This
+test ensures the user interface stays apropriate and standardized",3,"Go to the ""Claim"" Section",https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remains highlighted
+3. The font colors change to white"
+SCRUM-T40,"TC_USABILITY_CLAIM_010: Verify every button icon in ""Claim"" menu's section with the same uniform pattern",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons in the Claim section stays
+highlited and appear as properly when the admin access the module. This
+test ensures the user interface stays apropriate and standardized",4,Login in the plataform as the employee with the assigned claim,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,"1. Website working properly
+2. The UI is visible
+3. It has its animation
+4. After login will be redirected to the dashboard"
+SCRUM-T40,"TC_USABILITY_CLAIM_010: Verify every button icon in ""Claim"" menu's section with the same uniform pattern",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons in the Claim section stays
+highlited and appear as properly when the admin access the module. This
+test ensures the user interface stays apropriate and standardized",5,View the menu section,,"1. The claim section is not highlited
+2. The claim section appear on the menu
+3. The claim section has a icon next to his name"
+SCRUM-T40,"TC_USABILITY_CLAIM_010: Verify every button icon in ""Claim"" menu's section with the same uniform pattern",Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons in the Claim section stays
+highlited and appear as properly when the admin access the module. This
+test ensures the user interface stays apropriate and standardized",6,"Go to the ""Claim"" Section",https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remains highlighted
+3. The font colors change to white"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",1,View the menu section,,"1. The claim section is not highlited
+2. The claim section appear on the menu
+3. The claim section has a icon next to his name"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",2,Go to the Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remains highlighted
+3. The font colors change to white"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",3,Go to the Submited Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim,"1. It opens the ""Create Claim Request"" screen
+2. Shows the form
+3. The button create are green and in white font
+4. The button cancel are white and in green font"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",4,Click on event,,"1. It collapses a list of option
+2. It shows a option to choose from it
+3. You can click and select the option"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",5,Click on Currency,,"1. It collapses a list of option
+2. It shows a option to choose from it
+3. You can click and select the option
+4. You can scroll down the list"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",6,Pass the mouse in the Cancel and Create button,,"1. The buttons light up a little
+2. The mouse icon appear as clickable"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",7,View the menu section,,"1. The claim section is not highlited
+2. The claim section appear on the menu
+3. The claim section has a icon next to his name"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",8,Go to the Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim,"1. It opens the ""My claim"" default screen
+2. The button remains highlighted
+3. The font colors change to white"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",9,Go to the Submited Claim Section,https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim,"1. It opens the ""Create Claim Request"" screen
+2. Shows the form
+3. The button create are green and in white font
+4. The button cancel are white and in green font"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",10,Click on event,,"1. It collapses a list of option
+2. It shows a option to choose from it
+3. You can click and select the option"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",11,Click on Currency,,"1. It collapses a list of option
+2. It shows a option to choose from it
+3. You can click and select the option
+4. You can scroll down the list"
+SCRUM-T41,TC_USABILITY_CLAIM_011: Verify the icons and list in the Submit Claim has the apropriate colors pallete and fonts,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+- Verify internet externaly
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL:
+4. Ensure that you are logged in with Admin
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+
+REQUIREMENTS
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the buttons, list and fonts in the Submit
+claim follows the apropriate pattern of the OrangeHRM when the system is
+showed, selected or clicked. This test ensures the user interface stays
+apropriate and standardized",12,Pass the mouse in the Cancel and Create button,,"1. The buttons light up a little
+2. The mouse icon appear as clickable"

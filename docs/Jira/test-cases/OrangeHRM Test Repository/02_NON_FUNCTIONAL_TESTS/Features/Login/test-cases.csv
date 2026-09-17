@@ -1,0 +1,220 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T42,TC_AUTH_LOGIN_005(positive/usability): Verify user authentication via keyboard Enter key interaction,Approved,Normal,"Pre-conditions:
+* Clear web browser temporary files cache data and cookies history
+tracker.
+
+* Navigate layout to base application index location:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+* Verify that the login credential form container box interface renders
+fully on the workspace.
+
+Requirements:
+
+* N/A (This is a foundational authentication test case.)","This test case verifies that an active user can trigger the session
+authentication request and redirect to the landing dashboard layout
+successfully by pressing the keyboard 'Enter' key device element instead of
+selecting the graphic 'Login' button.",1,"Click your primary selector tool pointer inside the ""Username"" blank field
+element.",,"The input borders update with a focused color outline indicator layer, and
+the line type cursor begins blinking inside, listening for keyboard text
+input."
+SCRUM-T42,TC_AUTH_LOGIN_005(positive/usability): Verify user authentication via keyboard Enter key interaction,Approved,Normal,"Pre-conditions:
+* Clear web browser temporary files cache data and cookies history
+tracker.
+
+* Navigate layout to base application index location:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+* Verify that the login credential form container box interface renders
+fully on the workspace.
+
+Requirements:
+
+* N/A (This is a foundational authentication test case.)","This test case verifies that an active user can trigger the session
+authentication request and redirect to the landing dashboard layout
+successfully by pressing the keyboard 'Enter' key device element instead of
+selecting the graphic 'Login' button.",2,Type the exact valid corporate admin account user code string.,username: Admin,"The structural field maps and displays the visible alphanumeric character
+data sequence ""Admin""."
+SCRUM-T42,TC_AUTH_LOGIN_005(positive/usability): Verify user authentication via keyboard Enter key interaction,Approved,Normal,"Pre-conditions:
+* Clear web browser temporary files cache data and cookies history
+tracker.
+
+* Navigate layout to base application index location:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+* Verify that the login credential form container box interface renders
+fully on the workspace.
+
+Requirements:
+
+* N/A (This is a foundational authentication test case.)","This test case verifies that an active user can trigger the session
+authentication request and redirect to the landing dashboard layout
+successfully by pressing the keyboard 'Enter' key device element instead of
+selecting the graphic 'Login' button.",3,"Click with your cursor pointer layout inside the blank input field box
+named ""Password"".",,"The selection highlight state shifts focus into the password input box
+element area."
+SCRUM-T42,TC_AUTH_LOGIN_005(positive/usability): Verify user authentication via keyboard Enter key interaction,Approved,Normal,"Pre-conditions:
+* Clear web browser temporary files cache data and cookies history
+tracker.
+
+* Navigate layout to base application index location:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+* Verify that the login credential form container box interface renders
+fully on the workspace.
+
+Requirements:
+
+* N/A (This is a foundational authentication test case.)","This test case verifies that an active user can trigger the session
+authentication request and redirect to the landing dashboard layout
+successfully by pressing the keyboard 'Enter' key device element instead of
+selecting the graphic 'Login' button.",4,Type the current corporate valid password character code.,password: admin123,"The typed input characters are hidden instantly from screen visibility by
+masking symbols (dots/asterisks layout layer)."
+SCRUM-T42,TC_AUTH_LOGIN_005(positive/usability): Verify user authentication via keyboard Enter key interaction,Approved,Normal,"Pre-conditions:
+* Clear web browser temporary files cache data and cookies history
+tracker.
+
+* Navigate layout to base application index location:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+* Verify that the login credential form container box interface renders
+fully on the workspace.
+
+Requirements:
+
+* N/A (This is a foundational authentication test case.)","This test case verifies that an active user can trigger the session
+authentication request and redirect to the landing dashboard layout
+successfully by pressing the keyboard 'Enter' key device element instead of
+selecting the graphic 'Login' button.",5,"Press down the physical ""Enter"" key on your computer keyboard layout tool
+interface.",,"The security system processes the credential payload data. A momentary
+structural skeleton loader view displays, followed by a total page
+redirection tracking step to the target URL index link .../dashboard/index,
+revealing the live app administrative dashboard container dashboard screen."
+SCRUM-T43,TC_AUTH_LOGIN_002(negative/security): Verify system provides generic error message upon invalid authentication to prevent user enumeration,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login4.
+Ensure any active user sessions are completely logged out and browser
+cookies are cleared.
+
+Requirements:
+* N/A (This is a foundational security authentication test case.)","This test case verifies that the authentication system returns a generic
+error message for invalid login attempts. This security mechanism prevents
+malicious actors from guessing valid usernames within the application (User
+Enumeration protection).",1,"Move the mouse cursor to the ""Username"" input field container and click
+inside to focus the element.",,"The field border updates to indicate an active status, and the textual
+cursor blinks inside the box."
+SCRUM-T43,TC_AUTH_LOGIN_002(negative/security): Verify system provides generic error message upon invalid authentication to prevent user enumeration,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login4.
+Ensure any active user sessions are completely logged out and browser
+cookies are cleared.
+
+Requirements:
+* N/A (This is a foundational security authentication test case.)","This test case verifies that the authentication system returns a generic
+error message for invalid login attempts. This security mechanism prevents
+malicious actors from guessing valid usernames within the application (User
+Enumeration protection).",2,Type a non-existent or fake username string into the focused field layout.,username: FakeUser,"The alphanumeric string ""FakeUser"" is accepted and displayed clearly inside
+the input view."
+SCRUM-T43,TC_AUTH_LOGIN_002(negative/security): Verify system provides generic error message upon invalid authentication to prevent user enumeration,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login4.
+Ensure any active user sessions are completely logged out and browser
+cookies are cleared.
+
+Requirements:
+* N/A (This is a foundational security authentication test case.)","This test case verifies that the authentication system returns a generic
+error message for invalid login attempts. This security mechanism prevents
+malicious actors from guessing valid usernames within the application (User
+Enumeration protection).",3,"Click inside the ""Password"" input container field and type an arbitrary
+incorrect password sequence.",password: wrongpass,"The characters are securely masked by the browser interface, rendering as
+dots or asterisks instantly."
+SCRUM-T43,TC_AUTH_LOGIN_002(negative/security): Verify system provides generic error message upon invalid authentication to prevent user enumeration,Approved,High,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login4.
+Ensure any active user sessions are completely logged out and browser
+cookies are cleared.
+
+Requirements:
+* N/A (This is a foundational security authentication test case.)","This test case verifies that the authentication system returns a generic
+error message for invalid login attempts. This security mechanism prevents
+malicious actors from guessing valid usernames within the application (User
+Enumeration protection).",4,"Move the mouse pointer to the graphical login section and click on the
+""Login"" button.",,"The system processes the authentication payload, rejects the request, and
+displays a red warning text saying ""Invalid credentials"" near the form. It
+MUST NOT display specific targeted messages such as ""User not found"" or
+""Username does not exist""."
+SCRUM-T44,TC_AUTH_LOGIN_007(positive/responsiveness): Verify login page visual elements adapt and stack correctly on mobile viewports,Approved,High,"Pre-conditions:
+1. Open Google Chrome browser utility tool.
+
+2. Navigate to the base application login index screen.
+
+3. Ensure the page layout framework is fully loaded on screen.
+
+Requirements:
+
+* N/A (Foundational UI layout responsiveness configuration.)","This test case verifies that the login user interface components
+dynamically scale, resize, and stack vertically on mobile screen
+configurations without horizontal scrolling or text overlap.",1,"Press the F12 key on your physical keyboard (or right-click anywhere on the
+open page canvas and select ""Inspect"") to trigger the browser's developer
+tools panel.",,"The advanced Developer Tools panel opens up attached to the side or bottom
+of the primary browser tab view."
+SCRUM-T44,TC_AUTH_LOGIN_007(positive/responsiveness): Verify login page visual elements adapt and stack correctly on mobile viewports,Approved,High,"Pre-conditions:
+1. Open Google Chrome browser utility tool.
+
+2. Navigate to the base application login index screen.
+
+3. Ensure the page layout framework is fully loaded on screen.
+
+Requirements:
+
+* N/A (Foundational UI layout responsiveness configuration.)","This test case verifies that the login user interface components
+dynamically scale, resize, and stack vertically on mobile screen
+configurations without horizontal scrolling or text overlap.",2,"Click on the ""Toggle Device Toolbar"" icon graphic (or press Ctrl+Shift+M
+via keyboard shortcut) to enter the device simulation workbench.",,"The visual web layout wrapper adapts, switching from desktop aspect ratio
+into a responsive testing mobile box wrapper."
+SCRUM-T44,TC_AUTH_LOGIN_007(positive/responsiveness): Verify login page visual elements adapt and stack correctly on mobile viewports,Approved,High,"Pre-conditions:
+1. Open Google Chrome browser utility tool.
+
+2. Navigate to the base application login index screen.
+
+3. Ensure the page layout framework is fully loaded on screen.
+
+Requirements:
+
+* N/A (Foundational UI layout responsiveness configuration.)","This test case verifies that the login user interface components
+dynamically scale, resize, and stack vertically on mobile screen
+configurations without horizontal scrolling or text overlap.",3,"Click on the viewport dimension inputs at the top menu bar of the simulator
+and type the target width layout resolution.",390px,"The viewing area resizes perfectly to a mobile device layout configuration
+of 390 pixels width."
+SCRUM-T44,TC_AUTH_LOGIN_007(positive/responsiveness): Verify login page visual elements adapt and stack correctly on mobile viewports,Approved,High,"Pre-conditions:
+1. Open Google Chrome browser utility tool.
+
+2. Navigate to the base application login index screen.
+
+3. Ensure the page layout framework is fully loaded on screen.
+
+Requirements:
+
+* N/A (Foundational UI layout responsiveness configuration.)","This test case verifies that the login user interface components
+dynamically scale, resize, and stack vertically on mobile screen
+configurations without horizontal scrolling or text overlap.",4,"Use your tracking peripheral to scroll down and inspect the structural
+placement of the Username field, Password field, and Login action button.",,"All input containers span the maximum width of their parent container box
+and stack cleanly in a vertical hierarchy. No horizontal scrollbars are
+generated at the bottom panel viewport, and the text data strings do not
+clip or overlap."

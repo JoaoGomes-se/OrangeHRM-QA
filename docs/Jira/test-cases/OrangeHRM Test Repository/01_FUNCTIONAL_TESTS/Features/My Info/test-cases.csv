@@ -1,0 +1,130 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T76,TC_MYINFO_PersonalDetails_014 (negative): Verify validation for chronologically impossible Date of Birth,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS","Ensure the system blocks the submission of invalid or historically absurd
+birth years in the Personal Details module.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T76,TC_MYINFO_PersonalDetails_014 (negative): Verify validation for chronologically impossible Date of Birth,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS","Ensure the system blocks the submission of invalid or historically absurd
+birth years in the Personal Details module.",2,"Fulfill the PRE-CONDITIONS by navigating to the URL and logging in. Then,
+follow the REQUIREMENTS to navigate to My Info > Personal Details.",,"The login is successful and the ""Personal Details"" form is fully loaded
+with the employee's current data."
+SCRUM-T76,TC_MYINFO_PersonalDetails_014 (negative): Verify validation for chronologically impossible Date of Birth,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS","Ensure the system blocks the submission of invalid or historically absurd
+birth years in the Personal Details module.",3,"Input/Maintain the data on the form exactly as specified in the
+REQUIREMENTS block, ensuring the Date of Birth is set to a chronologically
+impossible year.",1500-01-01 or 2500-01-01,The data is temporarily accepted into the input fields.
+SCRUM-T76,TC_MYINFO_PersonalDetails_014 (negative): Verify validation for chronologically impossible Date of Birth,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS","Ensure the system blocks the submission of invalid or historically absurd
+birth years in the Personal Details module.",4,"Click the ""Save"" button at the bottom of the Personal Details section.",,"The system must contextually validate the year, block the submission, and
+display an error message stating that the Date of Birth is invalid."
+SCRUM-T77,TC_MYINFO_ContactDetails_013 (negative): Verify validation for non-legitimate email domains.,Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials:
+(Username: `Admin` / Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: My Info > Contact Details.
+Ensure to only alter the Work Email Camp","This test case verifies that an administrator with invalid email domain
+cannot add to it's contact details form. The test ensures data integrity
+and integration within the system",1,Go to My Info > Contact Details,https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7,"1. The interface shows the proper colors
+2. The ""Contact Details"" form is visible"
+SCRUM-T77,TC_MYINFO_ContactDetails_013 (negative): Verify validation for non-legitimate email domains.,Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials:
+(Username: `Admin` / Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: My Info > Contact Details.
+Ensure to only alter the Work Email Camp","This test case verifies that an administrator with invalid email domain
+cannot add to it's contact details form. The test ensures data integrity
+and integration within the system",2,"On ""Work Email"" insert an invalid email domain",email@email.com,"1. The system invalidates this email usage since is an invalid type
+2. Shows a warning to insert a valid email"
+SCRUM-T77,TC_MYINFO_ContactDetails_013 (negative): Verify validation for non-legitimate email domains.,Approved,Normal,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials:
+(Username: `Admin` / Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: My Info > Contact Details.
+Ensure to only alter the Work Email Camp","This test case verifies that an administrator with invalid email domain
+cannot add to it's contact details form. The test ensures data integrity
+and integration within the system",3,"Click on ""Save"" button",,"1. The form is not saved because of the email
+2. It shows a warning about the email
+3. The system blocks the data save until the email is correct"
+SCRUM-T79,"TC_MYINFO_ContactDetails_012 (negative): Verify validation for Phone number field refuses input containing only special characters (e.g. ""+-/()"")",Approved,High,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials:
+(Username: `Admin` / Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: My Info > Contact Details.
+Ensure to only alter the ""Telephone: Home"" Camp","This test case verifies that an administrator with only special characters
+cannot be accepted, since there is no number. The test ensures data
+integrity and integration within the system",1,Go to My Info > Contact Details,https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7,"1. The interface shows the proper colors
+2. The ""Contact Details"" form is visible"
+SCRUM-T79,"TC_MYINFO_ContactDetails_012 (negative): Verify validation for Phone number field refuses input containing only special characters (e.g. ""+-/()"")",Approved,High,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials:
+(Username: `Admin` / Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: My Info > Contact Details.
+Ensure to only alter the ""Telephone: Home"" Camp","This test case verifies that an administrator with only special characters
+cannot be accepted, since there is no number. The test ensures data
+integrity and integration within the system",2,"On Telephone > ""Home"" insert only the special valid characters ( + - / ( ))",+ - / ( ),"1. The system allow the usage of special characters
+2. It shows a warning to put a number to be valid"
+SCRUM-T79,"TC_MYINFO_ContactDetails_012 (negative): Verify validation for Phone number field refuses input containing only special characters (e.g. ""+-/()"")",Approved,High,"PRE-CONDITIONS
+Navigate to URL:
+Ensure that you are logged in with valid credentials:
+(Username: `Admin` / Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: My Info > Contact Details.
+Ensure to only alter the ""Telephone: Home"" Camp","This test case verifies that an administrator with only special characters
+cannot be accepted, since there is no number. The test ensures data
+integrity and integration within the system",3,"Click on ""Save"" button",,"1. The form is not saved because of the Telephone number nothaving any
+number at all
+2. It shows a warning in the ""Home"" form
+3. The system blocks the data save until the ""Home"" is correct"

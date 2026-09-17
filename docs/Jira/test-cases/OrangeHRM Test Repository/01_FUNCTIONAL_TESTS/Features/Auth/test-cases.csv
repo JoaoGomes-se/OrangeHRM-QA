@@ -1,0 +1,32 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T80,TC_AUTH_Login_004(Positive):  Verify sucessfull login with valid admin credentials.,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com","This test verifies that a registerd administrator user can sucessfully
+authenticate and access the OrangeHRM system using a valid username and
+password credentials. The test ensures proper redirection to the dashboard
+and an admin session creation.",1,"Insert the username in the ""Username"" field",-Username : Admin,"1. The ""Username"" placeholder disappears
+2. Appear the username (Admin)"
+SCRUM-T80,TC_AUTH_Login_004(Positive):  Verify sucessfull login with valid admin credentials.,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com","This test verifies that a registerd administrator user can sucessfully
+authenticate and access the OrangeHRM system using a valid username and
+password credentials. The test ensures proper redirection to the dashboard
+and an admin session creation.",2,"Insert the password in the ""Password"" field",-Password : admin123,"1. The ""Password"" placeholder disappears
+2. The password mask appear instead of the password"
+SCRUM-T80,TC_AUTH_Login_004(Positive):  Verify sucessfull login with valid admin credentials.,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com","This test verifies that a registerd administrator user can sucessfully
+authenticate and access the OrangeHRM system using a valid username and
+password credentials. The test ensures proper redirection to the dashboard
+and an admin session creation.",3,"Click on the ""Login"" button",,"1. The data is accepted
+2. Begin a login session as the admin
+3. Redirected directly to the ""Dashboard"" module"

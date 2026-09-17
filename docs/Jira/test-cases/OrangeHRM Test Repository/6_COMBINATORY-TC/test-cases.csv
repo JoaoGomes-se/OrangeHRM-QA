@@ -1,0 +1,251 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T64,"TC_PW_F_CREATE_Add-Candidate_007(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to verify the system's behavior when all
+personal and contact fields are fully provided with valid data, a Docx
+resume is attached, and optional text fields such as Keywords and Notes are
+filled, while the Vacancy remains unassigned. It ensures that a complete
+and detailed candidate profile can be successfully created even without a
+vacancy selection, validating that this field is truly optional during
+submission.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T64,"TC_PW_F_CREATE_Add-Candidate_007(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to verify the system's behavior when all
+personal and contact fields are fully provided with valid data, a Docx
+resume is attached, and optional text fields such as Keywords and Notes are
+filled, while the Vacancy remains unassigned. It ensures that a complete
+and detailed candidate profile can be successfully created even without a
+vacancy selection, validating that this field is truly optional during
+submission.",2,"Navigate to Recruitment > Candidates and click ""+ Add""",,The Add Candidate form is displayed
+SCRUM-T64,"TC_PW_F_CREATE_Add-Candidate_007(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to verify the system's behavior when all
+personal and contact fields are fully provided with valid data, a Docx
+resume is attached, and optional text fields such as Keywords and Notes are
+filled, while the Vacancy remains unassigned. It ensures that a complete
+and detailed candidate profile can be successfully created even without a
+vacancy selection, validating that this field is truly optional during
+submission.",3,"Fill in First Name, Middle Name, Last Name, Email and Contact Number with
+valid values",,All fields accept the input
+SCRUM-T64,"TC_PW_F_CREATE_Add-Candidate_007(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to verify the system's behavior when all
+personal and contact fields are fully provided with valid data, a Docx
+resume is attached, and optional text fields such as Keywords and Notes are
+filled, while the Vacancy remains unassigned. It ensures that a complete
+and detailed candidate profile can be successfully created even without a
+vacancy selection, validating that this field is truly optional during
+submission.",4,"Leave Vacancy unassigned, upload a Docx resume, fill Keywords, Notes and
+set Date of Application to current date",,Fields are filled and file is attached
+SCRUM-T64,"TC_PW_F_CREATE_Add-Candidate_007(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to verify the system's behavior when all
+personal and contact fields are fully provided with valid data, a Docx
+resume is attached, and optional text fields such as Keywords and Notes are
+filled, while the Vacancy remains unassigned. It ensures that a complete
+and detailed candidate profile can be successfully created even without a
+vacancy selection, validating that this field is truly optional during
+submission.",5,Check the Consent To Keep Data checkbox,,Checkbox is marked
+SCRUM-T64,"TC_PW_F_CREATE_Add-Candidate_007(positive): Verify that the form Add Candidate is processed with Valid, Valid, Valid, Unassigned, Valid, Valid, Docx, Filled, CurrentDate, Filled, Checked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to verify the system's behavior when all
+personal and contact fields are fully provided with valid data, a Docx
+resume is attached, and optional text fields such as Keywords and Notes are
+filled, while the Vacancy remains unassigned. It ensures that a complete
+and detailed candidate profile can be successfully created even without a
+vacancy selection, validating that this field is truly optional during
+submission.",6,Click Save,Click Save,Candidate is created successfully and appears in the list
+SCRUM-T65,"TC_PW_F_CREATE_Add-Candidate_008(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Empty, Empty, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's ability to process a
+minimal candidate submission where only the strictly required fields (First
+Name, Last Name, Email, and Contact Number) are provided, while all
+optional inputs such as Middle Name, Resume, Keywords, and Notes are left
+empty. It also verifies that leaving Vacancy unassigned and Consent
+unchecked does not block a valid candidate creation when the core mandatory
+data is present.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T65,"TC_PW_F_CREATE_Add-Candidate_008(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Empty, Empty, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's ability to process a
+minimal candidate submission where only the strictly required fields (First
+Name, Last Name, Email, and Contact Number) are provided, while all
+optional inputs such as Middle Name, Resume, Keywords, and Notes are left
+empty. It also verifies that leaving Vacancy unassigned and Consent
+unchecked does not block a valid candidate creation when the core mandatory
+data is present.",2,"Navigate to Recruitment > Candidates and click ""+ Add""",,The Add Candidate form is displayed
+SCRUM-T65,"TC_PW_F_CREATE_Add-Candidate_008(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Empty, Empty, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's ability to process a
+minimal candidate submission where only the strictly required fields (First
+Name, Last Name, Email, and Contact Number) are provided, while all
+optional inputs such as Middle Name, Resume, Keywords, and Notes are left
+empty. It also verifies that leaving Vacancy unassigned and Consent
+unchecked does not block a valid candidate creation when the core mandatory
+data is present.",3,"Fill in First Name, Last Name, Email and Contact Number with valid values",,All fields accept the input
+SCRUM-T65,"TC_PW_F_CREATE_Add-Candidate_008(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Empty, Empty, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's ability to process a
+minimal candidate submission where only the strictly required fields (First
+Name, Last Name, Email, and Contact Number) are provided, while all
+optional inputs such as Middle Name, Resume, Keywords, and Notes are left
+empty. It also verifies that leaving Vacancy unassigned and Consent
+unchecked does not block a valid candidate creation when the core mandatory
+data is present.",4,"Leave Middle Name, Resume, Keywords and Notes empty; leave Vacancy
+unassigned",,Fields remain blank and no file is attached
+SCRUM-T65,"TC_PW_F_CREATE_Add-Candidate_008(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Empty, Empty, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's ability to process a
+minimal candidate submission where only the strictly required fields (First
+Name, Last Name, Email, and Contact Number) are provided, while all
+optional inputs such as Middle Name, Resume, Keywords, and Notes are left
+empty. It also verifies that leaving Vacancy unassigned and Consent
+unchecked does not block a valid candidate creation when the core mandatory
+data is present.",5,"Set Date of Application to current date and leave Consent To Keep Data
+unchecked",,Date is set and checkbox remains unmarked
+SCRUM-T65,"TC_PW_F_CREATE_Add-Candidate_008(positive): Verify that the form Add Candidate is processed with Valid, Empty, Valid, Unassigned, Valid, Valid, Empty, Empty, CurrentDate, Empty, Unchecked",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: PW
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This combination was selected to validate the system's ability to process a
+minimal candidate submission where only the strictly required fields (First
+Name, Last Name, Email, and Contact Number) are provided, while all
+optional inputs such as Middle Name, Resume, Keywords, and Notes are left
+empty. It also verifies that leaving Vacancy unassigned and Consent
+unchecked does not block a valid candidate creation when the core mandatory
+data is present.",6,Click Save,Click Save,Candidate is created successfully and appears in the list

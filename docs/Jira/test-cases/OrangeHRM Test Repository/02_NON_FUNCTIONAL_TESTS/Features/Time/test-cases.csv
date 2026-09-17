@@ -1,0 +1,117 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T22,"TC_TIME_Dashboard_009 (response time): Verify ""Punch In/Out"" dashboard widget load speed",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the Time/Punch widget on the main dashboard retrieves the
+current user's punch state in under 1.0 second to ensure quick daily
+access.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T22,"TC_TIME_Dashboard_009 (response time): Verify ""Punch In/Out"" dashboard widget load speed",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the Time/Punch widget on the main dashboard retrieves the
+current user's punch state in under 1.0 second to ensure quick daily
+access.",2,"With the ""Network"" tab open in DevTools, set the ""Employee Name"" to an
+existing user, set dates to cover a full month, and click ""View"".",From: 2026-04-01 / To: 2026-04-30,The system initiates the search and triggers XHR/Fetch requests.
+SCRUM-T22,"TC_TIME_Dashboard_009 (response time): Verify ""Punch In/Out"" dashboard widget load speed",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the Time/Punch widget on the main dashboard retrieves the
+current user's punch state in under 1.0 second to ensure quick daily
+access.",3,"Monitor the ""Network"" tab specifically for the primary API response that
+returns the report data payload.",,"Performance Validation: The server processes the request efficiently. The
+specific API call returns an HTTP 200 OK status. The ""Time"" column in the
+Network tab indicates a total load time (TTFB + Content Download) of < 3.0
+seconds, and the UI renders the table completely."
+SCRUM-T23,"TC_TIME_Attendance_011(responsiveness): ""Punch In/Out"" button accessibility on mobile viewport",Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+SYSTEM REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the ""Punch In"" form elements implement Flexbox/Grid correctly,
+ensuring the submit button remains fully visible and interactive on small
+screens.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",Viewport: 375 x 667,Redirected to Dashboard
+SCRUM-T23,"TC_TIME_Attendance_011(responsiveness): ""Punch In/Out"" button accessibility on mobile viewport",Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+SYSTEM REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the ""Punch In"" form elements implement Flexbox/Grid correctly,
+ensuring the submit button remains fully visible and interactive on small
+screens.",2,"Toggle the DevTools ""Device Toolbar"" to simulate a mobile viewport
+constraint and observe the Punch In form structure.",Viewport: 375 x 667,The browser resizes the viewport.
+SCRUM-T23,"TC_TIME_Attendance_011(responsiveness): ""Punch In/Out"" button accessibility on mobile viewport",Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+SYSTEM REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the ""Punch In"" form elements implement Flexbox/Grid correctly,
+ensuring the submit button remains fully visible and interactive on small
+screens.",3,"Attempt to view and interact with the ""Date"", ""Time"", ""Note"" fields, and
+the ""In"" submit button.",,"Responsiveness Validation: The form containers adapt perfectly to a
+single-column layout. Input fields scale dynamically to fit the container
+width. The ""In"" submit button is cleanly rendered at the bottom of the form
+block, fully visible, clickable, and devoid of any CSS overlapping issues
+with the footer."

@@ -1,0 +1,82 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T21,TC_TIME_002 (negative): Select historical dates in My Attendance Records,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system correctly validates user input by rejecting invalid
+historical dates (e.g., non-existent days or incorrect formats) in the
+Attendance records, displaying an appropriate error message.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T21,TC_TIME_002 (negative): Select historical dates in My Attendance Records,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system correctly validates user input by rejecting invalid
+historical dates (e.g., non-existent days or incorrect formats) in the
+Attendance records, displaying an appropriate error message.",2,"From the lateral side menu, navigate to the ""Time"" module. On the top
+navigation bar, click the ""Attendance"" dropdown and select ""My Attendance
+Records"".",,"The ""Employee Attendance Records"" screen renders successfully. The main
+search container, including the ""Date"" input field, is clearly visible and
+interactive."
+SCRUM-T21,TC_TIME_002 (negative): Select historical dates in My Attendance Records,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system correctly validates user input by rejecting invalid
+historical dates (e.g., non-existent days or incorrect formats) in the
+Attendance records, displaying an appropriate error message.",3,"Instead of using the calendar popup, click directly inside the ""Date"" text
+field to type manually.",,"The cursor activates inside the text field, ready for manual input."
+SCRUM-T21,TC_TIME_002 (negative): Select historical dates in My Attendance Records,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system correctly validates user input by rejecting invalid
+historical dates (e.g., non-existent days or incorrect formats) in the
+Attendance records, displaying an appropriate error message.",4,"Manually type an invalid historical date format or a non-existent date in
+the past (e.g., February 30th) and press ""Enter"" or click away from the
+field.",Invalid Date: 2025-02-30 or 2025-13-45,"Negative Validation: The system must reject the input. It should not
+attempt to search for this date. An error message (e.g., ""Should be a valid
+date"" or ""Invalid Format"") must be displayed below the field, and the
+search button should be disabled or blocked from executing the query."

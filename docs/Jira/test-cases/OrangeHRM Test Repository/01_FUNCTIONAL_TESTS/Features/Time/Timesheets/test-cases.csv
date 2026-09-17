@@ -1,0 +1,57 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T20,TC_TIME_001 (positive): View personal timesheet as an Employee,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that a user authenticated with a standard Employee profile can
+successfully navigate to the Time module and view their personal timesheet
+records without accessing admin-level privileges.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",[Employee_Password],Redirected to Dashboard
+SCRUM-T20,TC_TIME_001 (positive): View personal timesheet as an Employee,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that a user authenticated with a standard Employee profile can
+successfully navigate to the Time module and view their personal timesheet
+records without accessing admin-level privileges.",2,"Navigate to the ""Time"" section via the side menu.",,"It shows the Timesheet screen as default
+The ""Time"" section is highlited while in the section"
+SCRUM-T20,TC_TIME_001 (positive): View personal timesheet as an Employee,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that a user authenticated with a standard Employee profile can
+successfully navigate to the Time module and view their personal timesheet
+records without accessing admin-level privileges.",3,"Click on the ""Timesheets"" tab and select ""My Timesheets"".",,"The employee's personal timesheet is displayed, showing dates, projects,
+and logged hours."

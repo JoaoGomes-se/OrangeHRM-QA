@@ -1,0 +1,361 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T24,TC_TIME_003 (security): Prevent unauthorized access to other employees' timesheets via URL manipulation (IDOR),Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that an employee cannot view or modify another employee's timesheet
+by changing the timesheet ID or employee ID parameter directly in the URL.",1,"On the login page, log in with the newly created Employee credentials.","Username: [Created_User]
+Password: [Created_Pass]",Authentication is successful. The Dashboard is displayed without errors.
+SCRUM-T24,TC_TIME_003 (security): Prevent unauthorized access to other employees' timesheets via URL manipulation (IDOR),Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that an employee cannot view or modify another employee's timesheet
+by changing the timesheet ID or employee ID parameter directly in the URL.",2,"Navigate to ""Time"" > ""Timesheets"" > ""My Timesheets"".",,"The personal timesheet page loads. The URL in the browser address bar
+reflects a specific endpoint containing a timesheet ID parameter (e.g.,
+.../viewTimesheet/timesheetId/12)."
+SCRUM-T24,TC_TIME_003 (security): Prevent unauthorized access to other employees' timesheets via URL manipulation (IDOR),Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that an employee cannot view or modify another employee's timesheet
+by changing the timesheet ID or employee ID parameter directly in the URL.",3,"Focus on the browser's address bar. Manually edit the URL, replacing your
+own ID value with the ID of the other user captured during the Admin setup.",Mutated ID: 1,The URL is successfully edited in the browser string.
+SCRUM-T24,TC_TIME_003 (security): Prevent unauthorized access to other employees' timesheets via URL manipulation (IDOR),Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that an employee cannot view or modify another employee's timesheet
+by changing the timesheet ID or employee ID parameter directly in the URL.",4,Press 'Enter' to submit the modified GET request to the server.,,"Security Validation: The server intercepts the request and validates the
+user's session role.
+
+Expected UI State: The system strictly denies access and DOES NOT load the
+target's timesheet data into the DOM. The application gracefully handles
+the unauthorized request by displaying a red toast/banner error message
+stating ""Credential Required"" and redirects the user to a safe view."
+SCRUM-T25,TC_TIME_Timesheet_004 (usability): Inline validation for invalid time entry formats,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the timesheet input fields provide immediate, client-side
+visual feedback when a user enters an invalid time format, preventing
+unnecessary server requests.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T25,TC_TIME_Timesheet_004 (usability): Inline validation for invalid time entry formats,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the timesheet input fields provide immediate, client-side
+visual feedback when a user enters an invalid time format, preventing
+unnecessary server requests.",2,"Focus on a daily time input field for a specific project row, type an
+invalid time format, and click outside the field (triggering the onBlur
+event).",Input: 25:00 or abc,The system captures the invalid input.
+SCRUM-T25,TC_TIME_Timesheet_004 (usability): Inline validation for invalid time entry formats,Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the timesheet input fields provide immediate, client-side
+visual feedback when a user enters an invalid time format, preventing
+unnecessary server requests.",3,Observe the UI behavior of the input field.,,"Usability Validation: The system immediately triggers an inline validation
+without reloading the page. The input field's border turns red (error
+state), and a highly visible text span containing a clear error message
+(e.g., ""Should be less than 24"" or ""Invalid format"") dynamically renders
+directly below the field."
+SCRUM-T26,TC_TIME_Timesheet_005 (usability): Intuitive navigation between timesheet weeks,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that users can seamlessly navigate to previous and next weeks using
+dedicated UI pagination buttons without relying on the manual calendar
+component.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T26,TC_TIME_Timesheet_005 (usability): Intuitive navigation between timesheet weeks,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that users can seamlessly navigate to previous and next weeks using
+dedicated UI pagination buttons without relying on the manual calendar
+component.",2,"Locate the date navigation controls at the top of the timesheet grid and
+click the ""<"" (Previous) button.",,The browser registers the click event.
+SCRUM-T26,TC_TIME_Timesheet_005 (usability): Intuitive navigation between timesheet weeks,Approved,Low,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that users can seamlessly navigate to previous and next weeks using
+dedicated UI pagination buttons without relying on the manual calendar
+component.",3,Observe the state of the data table and the header dates.,,"Usability Validation: The timesheet grid updates asynchronously. The date
+header text accurately shifts backwards by exactly 7 days. The UI
+transition is smooth, without layout breaking or forcing a full hard-reload
+of the entire side navigation menu."
+SCRUM-T27,TC_TIME_Timesheet_006 (security): Prevent self-approval of timesheets by standard employees,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that standard employees lack the UI elements and backend permissions
+to approve their own timesheets, enforcing strict Role-Based Access Control
+(RBAC).",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T27,TC_TIME_Timesheet_006 (security): Prevent self-approval of timesheets by standard employees,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that standard employees lack the UI elements and backend permissions
+to approve their own timesheets, enforcing strict Role-Based Access Control
+(RBAC).",2,"Open the timesheet that is currently in ""Submitted"" status and observe the
+action buttons at the bottom of the form.",,The timesheet data is rendered in read-only mode on the screen.
+SCRUM-T27,TC_TIME_Timesheet_006 (security): Prevent self-approval of timesheets by standard employees,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that standard employees lack the UI elements and backend permissions
+to approve their own timesheets, enforcing strict Role-Based Access Control
+(RBAC).",3,"Open the Developer Tools (F12), navigate to the ""Elements"" tab, and inspect
+the DOM structure where action buttons are located.",,"Security Validation: The system strictly enforces RBAC at the UI level. The
+""Approve"" button is completely absent from the DOM (it is NOT merely hidden
+via CSS display: none). The only buttons rendered and accessible to the
+Employee are ""Edit"" or ""Cancel""."
+SCRUM-T28,TC_TIME_Timesheet_007 (security): Prevent Stored XSS in Timesheet row comments,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system sanitizes user inputs in the Timesheet ""Comment""
+fields to prevent Stored Cross-Site Scripting (XSS) payload execution.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T28,TC_TIME_Timesheet_007 (security): Prevent Stored XSS in Timesheet row comments,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system sanitizes user inputs in the Timesheet ""Comment""
+fields to prevent Stored Cross-Site Scripting (XSS) payload execution.",2,"Click the ""Comment"" icon for a specific day in the grid, inject a
+JavaScript payload into the text area, and click ""Save"".",Payload:,The server accepts the payload and saves the timesheet.
+SCRUM-T28,TC_TIME_Timesheet_007 (security): Prevent Stored XSS in Timesheet row comments,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system sanitizes user inputs in the Timesheet ""Comment""
+fields to prevent Stored Cross-Site Scripting (XSS) payload execution.",3,"Hard-reload the page (Ctrl+F5) and click the ""Comment"" icon again to view
+the saved data.",,"Security Validation: The browser's JavaScript engine DOES NOT execute the
+payload (no alert popup appears). The system successfully sanitizes the
+stored input by HTML-encoding the characters. The payload is safely
+rendered in the DOM as plain text."
+SCRUM-T29,"TC_TIME_Timesheet_010 (responsiveness): Verify ""My Timesheets"" UI on mobile viewport",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the timesheet data table CSS media queries adapt correctly
+without forcing horizontal scrolling on the main window body when viewed on
+a mobile viewport.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type '[Employee_Username]' in the Username field
+3. Type '[Employee_Password]' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T29,"TC_TIME_Timesheet_010 (responsiveness): Verify ""My Timesheets"" UI on mobile viewport",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the timesheet data table CSS media queries adapt correctly
+without forcing horizontal scrolling on the main window body when viewed on
+a mobile viewport.",2,"Toggle the DevTools ""Device Toolbar"", set the dimensions to a standard
+mobile constraint, and refresh the page (F5).",Viewport: 375 x 667,The browser engine applies mobile CSS media queries.
+SCRUM-T29,"TC_TIME_Timesheet_010 (responsiveness): Verify ""My Timesheets"" UI on mobile viewport",Approved,Normal,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. For the Employee usage
+* Follow the TC: TC_PIM_001 (Positive): Add a new employee with valid
+mandatory data
+* Login with the Employee credentials made
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the timesheet data table CSS media queries adapt correctly
+without forcing horizontal scrolling on the main window body when viewed on
+a mobile viewport.",3,"Inspect the global UI structure, specifically the main navigation menu and
+the Timesheet data table container.",,"Responsiveness Validation: The UI successfully adapts to the constrained
+width. The lateral sidebar collapses into a clickable hamburger menu. The
+timesheet grid handles data gracefully (e.g., placing the overflow inside a
+specific scrollable container) ensuring the tag DOES NOT force a
+global horizontal scrollbar."

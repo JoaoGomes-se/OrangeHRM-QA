@@ -1,0 +1,768 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T34,TC-TIME_006(usability) : Verify readability and usability of employee reports,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",1,Log into OrangeHRM,"* Valid Username
+* Valid Password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully."
+SCRUM-T34,TC-TIME_006(usability) : Verify readability and usability of employee reports,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",2,Access Time > Reports > Employee Reports,,"* The Employee Reports module opens successfully.
+* All report filters and interface components are visible.
+* The page loads without errors."
+SCRUM-T34,TC-TIME_006(usability) : Verify readability and usability of employee reports,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",3,Generate a valid employee report,"* Valid Employee Name - manda
+* Valid Date Range-
+* From: 2026-01-01
+* To: 2026-01-31","* The system generates the employee report successfully.
+* The report data is displayed according to the selected filters."
+SCRUM-T34,TC-TIME_006(usability) : Verify readability and usability of employee reports,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",4,Analyze the report layout,Click on the Generate/View button,"* Report information is displayed in an organized format.
+* Tables, columns, and labels are properly aligned.
+* Fonts, spacing, and interface elements are readable."
+SCRUM-T34,TC-TIME_006(usability) : Verify readability and usability of employee reports,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",5,Verify visibility of report information,Employee report page,"* The displayed data is easy to understand.
+* Important report information is clearly visible.
+* Texts and values are readable without overlap or truncation.
+* Users can identify employee and report details without difficulty."
+SCRUM-T34,TC-TIME_006(usability) : Verify readability and usability of employee reports,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",6,Verify navigation and usability,Employee report page,"* Navigation between report sections works correctly.
+* The user can interact with filters and report elements successfully.
+* Scrolling and page interaction function properly."
+SCRUM-T35,TC_TIME_010(security): Verify data integrity by preventing unauthorized editing of generated Time Reports,Approved,High,"PRE-CONDITIONS
+* Pre-conditions: 1. Log in to OrangeHRM.
+
+* 2. Ensure there is at least one generated report in the system
+(e.g., ""Employee Attendance Report"").
+
+* 3. Use a user account with ""View"" permissions but without
+""Edit/Admin"" permissions.
+
+
+Requirements:
+
+* System shall render report data as non-editable fields for
+unauthorized roles.
+
+* System shall not provide ""Save"", ""Update"", or ""Edit"" buttons within
+the report view for these users.","Objective: This test case verifies that once an Employee Report is
+generated in the Time module, the data remains in a ""Read-Only"" state for
+unauthorized users. It ensures that no one can manipulate the logs,
+maintaining the ""Single Source of Truth"" for auditing purposes.",1,Navigate to the Time module and select Reports,,The Reports section loads and displays the list of available reports.
+SCRUM-T35,TC_TIME_010(security): Verify data integrity by preventing unauthorized editing of generated Time Reports,Approved,High,"PRE-CONDITIONS
+* Pre-conditions: 1. Log in to OrangeHRM.
+
+* 2. Ensure there is at least one generated report in the system
+(e.g., ""Employee Attendance Report"").
+
+* 3. Use a user account with ""View"" permissions but without
+""Edit/Admin"" permissions.
+
+
+Requirements:
+
+* System shall render report data as non-editable fields for
+unauthorized roles.
+
+* System shall not provide ""Save"", ""Update"", or ""Edit"" buttons within
+the report view for these users.","Objective: This test case verifies that once an Employee Report is
+generated in the Time module, the data remains in a ""Read-Only"" state for
+unauthorized users. It ensures that no one can manipulate the logs,
+maintaining the ""Single Source of Truth"" for auditing purposes.",2,* Open a specific report to view its details,"Access Time > Reports > Employee Reports]
+Select any Employee Report","The report opens, displaying hours, names, and project details."
+SCRUM-T35,TC_TIME_010(security): Verify data integrity by preventing unauthorized editing of generated Time Reports,Approved,High,"PRE-CONDITIONS
+* Pre-conditions: 1. Log in to OrangeHRM.
+
+* 2. Ensure there is at least one generated report in the system
+(e.g., ""Employee Attendance Report"").
+
+* 3. Use a user account with ""View"" permissions but without
+""Edit/Admin"" permissions.
+
+
+Requirements:
+
+* System shall render report data as non-editable fields for
+unauthorized roles.
+
+* System shall not provide ""Save"", ""Update"", or ""Edit"" buttons within
+the report view for these users.","Objective: This test case verifies that once an Employee Report is
+generated in the Time module, the data remains in a ""Read-Only"" state for
+unauthorized users. It ensures that no one can manipulate the logs,
+maintaining the ""Single Source of Truth"" for auditing purposes.",3,Attempt to interact with the data cells (inline editing),Double-click on hours/date fields,"* The fields do not change to ""input mode""; data remains static and
+Read-Only."
+SCRUM-T35,TC_TIME_010(security): Verify data integrity by preventing unauthorized editing of generated Time Reports,Approved,High,"PRE-CONDITIONS
+* Pre-conditions: 1. Log in to OrangeHRM.
+
+* 2. Ensure there is at least one generated report in the system
+(e.g., ""Employee Attendance Report"").
+
+* 3. Use a user account with ""View"" permissions but without
+""Edit/Admin"" permissions.
+
+
+Requirements:
+
+* System shall render report data as non-editable fields for
+unauthorized roles.
+
+* System shall not provide ""Save"", ""Update"", or ""Edit"" buttons within
+the report view for these users.","Objective: This test case verifies that once an Employee Report is
+generated in the Time module, the data remains in a ""Read-Only"" state for
+unauthorized users. It ensures that no one can manipulate the logs,
+maintaining the ""Single Source of Truth"" for auditing purposes.",4,Inspect the UI for administrative action buttons,,"""Edit"", ""Save"", or ""Delete"" buttons are hidden or disabled (greyed out)."
+SCRUM-T35,TC_TIME_010(security): Verify data integrity by preventing unauthorized editing of generated Time Reports,Approved,High,"PRE-CONDITIONS
+* Pre-conditions: 1. Log in to OrangeHRM.
+
+* 2. Ensure there is at least one generated report in the system
+(e.g., ""Employee Attendance Report"").
+
+* 3. Use a user account with ""View"" permissions but without
+""Edit/Admin"" permissions.
+
+
+Requirements:
+
+* System shall render report data as non-editable fields for
+unauthorized roles.
+
+* System shall not provide ""Save"", ""Update"", or ""Edit"" buttons within
+the report view for these users.","Objective: This test case verifies that once an Employee Report is
+generated in the Time module, the data remains in a ""Read-Only"" state for
+unauthorized users. It ensures that no one can manipulate the logs,
+maintaining the ""Single Source of Truth"" for auditing purposes.",5,"Attempt an unauthorized ""Save"" action via Console (Advanced)",Execute a save script in DevTools,"* The server-side validation must block the request and return an error
+(e.g., 401 Unauthorized)."
+SCRUM-T36,TC_TIME_Performance_011(performance): Verify if the Employee Report generation takes less than 5 seconds,Approved,High,"PRE-CONDITIONS 1. Navigate to the OrangeHRM system.
+
+2. Ensure the user is logged in with a valid Admin or Employee account.
+
+3. Ensure employee time records already exist in the system database for
+testing.
+
+4. Access the module: Time > Reports > Employee Reports.
+
+REQUIREMENTS * Functional: Valid Employee Name and Valid Date Range.
+
+* Data: Existing Employee Time Records (Attendance logs).
+
+* Visual: Compliance with standard web accessibility (WCAG) for
+contrast and font size.
+
+EXPECTED RESULTS * Success: System shall generate employee reports
+successfully upon clicking ""View"".
+
+* Organization: System shall display report information in a readable,
+tabular format with clear headers.
+
+* Consistency: System shall maintain proper spacing, column alignment,
+and visual consistency across all report rows.
+
+* Clarity: System shall ensure that texts, tables, and filters are
+high-contrast and easily understandable.
+
+* Efficiency: System shall keep the interface responsive, allowing the
+user to navigate large reports without UI breaking.
+
+* Standardization: System shall preserve professional usability
+standards (e.g., intuitive icons and clear data separation).","This test case verifies that the Employee Reports module displays
+information in a clear, organized, and user-friendly manner. The goal is to
+ensure that the report layout, readability, and navigation follow
+professional usability standards (UX/UI), providing an efficient experience
+for the end user",1,Filter report by Employee,Charlie Carter,System filters correctly.
+SCRUM-T36,TC_TIME_Performance_011(performance): Verify if the Employee Report generation takes less than 5 seconds,Approved,High,"PRE-CONDITIONS 1. Navigate to the OrangeHRM system.
+
+2. Ensure the user is logged in with a valid Admin or Employee account.
+
+3. Ensure employee time records already exist in the system database for
+testing.
+
+4. Access the module: Time > Reports > Employee Reports.
+
+REQUIREMENTS * Functional: Valid Employee Name and Valid Date Range.
+
+* Data: Existing Employee Time Records (Attendance logs).
+
+* Visual: Compliance with standard web accessibility (WCAG) for
+contrast and font size.
+
+EXPECTED RESULTS * Success: System shall generate employee reports
+successfully upon clicking ""View"".
+
+* Organization: System shall display report information in a readable,
+tabular format with clear headers.
+
+* Consistency: System shall maintain proper spacing, column alignment,
+and visual consistency across all report rows.
+
+* Clarity: System shall ensure that texts, tables, and filters are
+high-contrast and easily understandable.
+
+* Efficiency: System shall keep the interface responsive, allowing the
+user to navigate large reports without UI breaking.
+
+* Standardization: System shall preserve professional usability
+standards (e.g., intuitive icons and clear data separation).","This test case verifies that the Employee Reports module displays
+information in a clear, organized, and user-friendly manner. The goal is to
+ensure that the report layout, readability, and navigation follow
+professional usability standards (UX/UI), providing an efficient experience
+for the end user",2,Verify table alignment,,Headers and data rows are perfectly aligned.
+SCRUM-T36,TC_TIME_Performance_011(performance): Verify if the Employee Report generation takes less than 5 seconds,Approved,High,"PRE-CONDITIONS 1. Navigate to the OrangeHRM system.
+
+2. Ensure the user is logged in with a valid Admin or Employee account.
+
+3. Ensure employee time records already exist in the system database for
+testing.
+
+4. Access the module: Time > Reports > Employee Reports.
+
+REQUIREMENTS * Functional: Valid Employee Name and Valid Date Range.
+
+* Data: Existing Employee Time Records (Attendance logs).
+
+* Visual: Compliance with standard web accessibility (WCAG) for
+contrast and font size.
+
+EXPECTED RESULTS * Success: System shall generate employee reports
+successfully upon clicking ""View"".
+
+* Organization: System shall display report information in a readable,
+tabular format with clear headers.
+
+* Consistency: System shall maintain proper spacing, column alignment,
+and visual consistency across all report rows.
+
+* Clarity: System shall ensure that texts, tables, and filters are
+high-contrast and easily understandable.
+
+* Efficiency: System shall keep the interface responsive, allowing the
+user to navigate large reports without UI breaking.
+
+* Standardization: System shall preserve professional usability
+standards (e.g., intuitive icons and clear data separation).","This test case verifies that the Employee Reports module displays
+information in a clear, organized, and user-friendly manner. The goal is to
+ensure that the report layout, readability, and navigation follow
+professional usability standards (UX/UI), providing an efficient experience
+for the end user",3,* Check font legibility,,"*
+No overlapping text or tiny fonts found."
+SCRUM-T37,TC_TIME_Resp_012(responsiveness): Verify Time Report table adaptation on tablet viewport,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",1,Log into OrangeHRM,"* Valid Username
+* Valid Password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully."
+SCRUM-T37,TC_TIME_Resp_012(responsiveness): Verify Time Report table adaptation on tablet viewport,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",2,Access Time > Reports > Employee Reports,,"* The Employee Reports module opens successfully.
+* All report filters and interface components are visible.
+* The page loads without errors."
+SCRUM-T37,TC_TIME_Resp_012(responsiveness): Verify Time Report table adaptation on tablet viewport,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",3,Generate a valid employee report,"* Valid Employee Name - manda
+* Valid Date Range-
+* From: 2026-01-01
+* To: 2026-01-31","* The system generates the employee report successfully.
+* The report data is displayed according to the selected filters."
+SCRUM-T37,TC_TIME_Resp_012(responsiveness): Verify Time Report table adaptation on tablet viewport,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",4,Analyze the report layout,Click on the Generate/View button,"* Report information is displayed in an organized format.
+* Tables, columns, and labels are properly aligned.
+* Fonts, spacing, and interface elements are readable."
+SCRUM-T37,TC_TIME_Resp_012(responsiveness): Verify Time Report table adaptation on tablet viewport,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",5,Verify visibility of report information,Employee report page,"* The displayed data is easy to understand.
+* Important report information is clearly visible.
+* Texts and values are readable without overlap or truncation.
+* Users can identify employee and report details without difficulty."
+SCRUM-T37,TC_TIME_Resp_012(responsiveness): Verify Time Report table adaptation on tablet viewport,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",6,Verify navigation and usability,Employee report page,"* Navigation between report sections works correctly.
+* The user can interact with filters and report elements successfully.
+* Scrolling and page interaction function properly."
+SCRUM-T38,"TC_TIME_013(performance): Verify if the ""Employee Reports"" list loads in less than 3 seconds",Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",1,Log into OrangeHRM,"* Valid Username
+* Valid Password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully."
+SCRUM-T38,"TC_TIME_013(performance): Verify if the ""Employee Reports"" list loads in less than 3 seconds",Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",2,Access Time > Reports > Employee Reports,,"* The Employee Reports module opens successfully.
+* All report filters and interface components are visible.
+* The page loads without errors."
+SCRUM-T38,"TC_TIME_013(performance): Verify if the ""Employee Reports"" list loads in less than 3 seconds",Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",3,Generate a valid employee report,"* Valid Employee Name - manda
+* Valid Date Range-
+* From: 2026-01-01
+* To: 2026-01-31","* The system generates the employee report successfully.
+* The report data is displayed according to the selected filters."
+SCRUM-T38,"TC_TIME_013(performance): Verify if the ""Employee Reports"" list loads in less than 3 seconds",Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",4,Analyze the report layout,Click on the Generate/View button,"* Report information is displayed in an organized format.
+* Tables, columns, and labels are properly aligned.
+* Fonts, spacing, and interface elements are readable."
+SCRUM-T38,"TC_TIME_013(performance): Verify if the ""Employee Reports"" list loads in less than 3 seconds",Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",5,Verify visibility of report information,Employee report page,"* The displayed data is easy to understand.
+* Important report information is clearly visible.
+* Texts and values are readable without overlap or truncation.
+* Users can identify employee and report details without difficulty."
+SCRUM-T38,"TC_TIME_013(performance): Verify if the ""Employee Reports"" list loads in less than 3 seconds",Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Ensure employee time records already exist in the system database.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* Valid Employee Name
+* Valid Date Range
+* Existing Employee Time Records
+EXPECTED RESULTS
+* System shall generate employee reports successfully.
+* System shall display report information in a readable and organized
+format.
+* System shall maintain proper spacing, alignment, and visual
+consistency.
+* System shall ensure that texts, tables, and filters are visible and
+understandable.
+* System shall keep the interface responsive and easy to navigate.
+* System shall preserve usability standards during report
+visualization.","This test case verifies that the Employee Reports module displays report
+information in a clear, organized, and user-friendly manner when valid
+employee data and filters are used. The test ensures that the report
+layout, readability, navigation, and overall usability provide a good user
+experience.",6,Verify navigation and usability,Employee report page,"* Navigation between report sections works correctly.
+* The user can interact with filters and report elements successfully.
+* Scrolling and page interaction function properly."

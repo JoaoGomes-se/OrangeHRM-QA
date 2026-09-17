@@ -1,0 +1,57 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T33,TC_TIME_Report_008 (response time): Verify Attendance Summary Report load time,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system queries and renders the ""Attendance Summary Report""
+for a full 30-day period within an acceptable performance threshold (< 3.0
+seconds).",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button",,Redirected to Dashboard
+SCRUM-T33,TC_TIME_Report_008 (response time): Verify Attendance Summary Report load time,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system queries and renders the ""Attendance Summary Report""
+for a full 30-day period within an acceptable performance threshold (< 3.0
+seconds).",2,"With the ""Network"" tab open in DevTools, set the ""Employee Name"" to an
+existing user, set dates to cover a full month, and click ""View"".",From: 2026-04-01 / To: 2026-04-30,The system initiates the search and triggers XHR/Fetch requests.
+SCRUM-T33,TC_TIME_Report_008 (response time): Verify Attendance Summary Report load time,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+* Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+* Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+* Username: Admin
+* Password: admin123
+5. Go to the module: TIME
+
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system queries and renders the ""Attendance Summary Report""
+for a full 30-day period within an acceptable performance threshold (< 3.0
+seconds).",3,"Monitor the ""Network"" tab specifically for the primary API response that
+returns the report data payload.",,"Performance Validation: The server processes the request efficiently. The
+specific API call returns an HTTP 200 OK status. The ""Time"" column in the
+Network tab indicates a total load time (TTFB + Content Download) of < 3.0
+seconds, and the UI renders the table completely."

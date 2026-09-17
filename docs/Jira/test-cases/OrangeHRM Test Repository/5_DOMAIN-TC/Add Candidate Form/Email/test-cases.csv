@@ -1,0 +1,323 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T58,TC_REC_Candidate_Email_001 (positive): Verify system accepts valid email formats with subaddressing,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+* Ensure the candidate data requirements are prepared for input.
+
+* Access the module: Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Valid Email String with Subaddressing
+Character (e.g., user+tag@domain.com) Complete Mandatory Form Fields
+
+EXPECTED RESULTS
+
+* System shall validate the extended email syntax successfully.
+
+* System shall save the candidate profile without triggering formatting
+errors.
+
+* System shall preserve the full email text including the plus (+)
+character intact.
+
+* System shall display the saved email accurately in the candidate
+details view.
+
+* System shall maintain data integrity within the persistent database
+registry.","This test case verifies that the Recruitment module accepts and processes
+candidate registrations containing extended email address formats with
+subaddressing characters (the + sign) when valid candidate data is used.
+The test ensures that the system handles complex syntax, database storage,
+and input fields to provide a robust data validation experience.",1,Log into OrangeHRM,"* Valid Username
+* Valid Password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully."
+SCRUM-T58,TC_REC_Candidate_Email_001 (positive): Verify system accepts valid email formats with subaddressing,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+* Ensure the candidate data requirements are prepared for input.
+
+* Access the module: Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Valid Email String with Subaddressing
+Character (e.g., user+tag@domain.com) Complete Mandatory Form Fields
+
+EXPECTED RESULTS
+
+* System shall validate the extended email syntax successfully.
+
+* System shall save the candidate profile without triggering formatting
+errors.
+
+* System shall preserve the full email text including the plus (+)
+character intact.
+
+* System shall display the saved email accurately in the candidate
+details view.
+
+* System shall maintain data integrity within the persistent database
+registry.","This test case verifies that the Recruitment module accepts and processes
+candidate registrations containing extended email address formats with
+subaddressing characters (the + sign) when valid candidate data is used.
+The test ensures that the system handles complex syntax, database storage,
+and input fields to provide a robust data validation experience.",2,Navigate to the OrangeHRM recruitment candidate addition form.,Recruitment > Candidates > Add Candidate,"* The ""Add Candidate"" form page loads completely with empty input
+fields."
+SCRUM-T58,TC_REC_Candidate_Email_001 (positive): Verify system accepts valid email formats with subaddressing,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+* Ensure the candidate data requirements are prepared for input.
+
+* Access the module: Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Valid Email String with Subaddressing
+Character (e.g., user+tag@domain.com) Complete Mandatory Form Fields
+
+EXPECTED RESULTS
+
+* System shall validate the extended email syntax successfully.
+
+* System shall save the candidate profile without triggering formatting
+errors.
+
+* System shall preserve the full email text including the plus (+)
+character intact.
+
+* System shall display the saved email accurately in the candidate
+details view.
+
+* System shall maintain data integrity within the persistent database
+registry.","This test case verifies that the Recruitment module accepts and processes
+candidate registrations containing extended email address formats with
+subaddressing characters (the + sign) when valid candidate data is used.
+The test ensures that the system handles complex syntax, database storage,
+and input fields to provide a robust data validation experience.",3,"Input a valid email address that utilizes a subaddressing tag into the
+Email field.",joao+testes@gmail.com,"The string is accepted into the field boundary, showing the plus (+)
+character."
+SCRUM-T58,TC_REC_Candidate_Email_001 (positive): Verify system accepts valid email formats with subaddressing,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+* Ensure the candidate data requirements are prepared for input.
+
+* Access the module: Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Valid Email String with Subaddressing
+Character (e.g., user+tag@domain.com) Complete Mandatory Form Fields
+
+EXPECTED RESULTS
+
+* System shall validate the extended email syntax successfully.
+
+* System shall save the candidate profile without triggering formatting
+errors.
+
+* System shall preserve the full email text including the plus (+)
+character intact.
+
+* System shall display the saved email accurately in the candidate
+details view.
+
+* System shall maintain data integrity within the persistent database
+registry.","This test case verifies that the Recruitment module accepts and processes
+candidate registrations containing extended email address formats with
+subaddressing characters (the + sign) when valid candidate data is used.
+The test ensures that the system handles complex syntax, database storage,
+and input fields to provide a robust data validation experience.",4,"Click on the Save button at the bottom of the form to submit the
+registration.",,"The system validation passes cleanly, saves the candidate profile, and
+displays a success notification."
+SCRUM-T58,TC_REC_Candidate_Email_001 (positive): Verify system accepts valid email formats with subaddressing,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+* Ensure the candidate data requirements are prepared for input.
+
+* Access the module: Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Valid Email String with Subaddressing
+Character (e.g., user+tag@domain.com) Complete Mandatory Form Fields
+
+EXPECTED RESULTS
+
+* System shall validate the extended email syntax successfully.
+
+* System shall save the candidate profile without triggering formatting
+errors.
+
+* System shall preserve the full email text including the plus (+)
+character intact.
+
+* System shall display the saved email accurately in the candidate
+details view.
+
+* System shall maintain data integrity within the persistent database
+registry.","This test case verifies that the Recruitment module accepts and processes
+candidate registrations containing extended email address formats with
+subaddressing characters (the + sign) when valid candidate data is used.
+The test ensures that the system handles complex syntax, database storage,
+and input fields to provide a robust data validation experience.",5,"Verify the saved email address layout inside the newly created Candidate
+Details view.",,"The email is rendered accurately as joao+testes@gmail.com, confirming data
+integrity."
+SCRUM-T59,TC_REC_Candidate_Email_002 (negative): Verify system rejects email formats with missing suffixes,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+
+* Ensure the system is ready to receive input data. Access the module:
+Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Invalid Email String Missing Domain
+Suffix (e.g., user@) Attempt to Execute Form Submission
+
+EXPECTED RESULTS
+
+* System shall block the candidate profile registration successfully.
+
+* System shall trigger an inline error message indicating an invalid
+email format.
+
+* System shall highlight the email input field boundary to capture
+user attention.
+
+* System shall restrict database insertion to prevent corrupted or
+partial records.
+
+* System shall preserve the entered string in the field for user
+correction.","This test case verifies that the Recruitment module blocks candidate
+registrations and restricts form submissions when an incomplete or
+syntactically invalid email structure is used. The test ensures that the
+input validation engine, error indicators, inline alerts, and overall
+boundary rules provide a secure data entry experience.",1,Log into OrangeHRM,"* Valid Username
+* Valid Password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully."
+SCRUM-T59,TC_REC_Candidate_Email_002 (negative): Verify system rejects email formats with missing suffixes,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+
+* Ensure the system is ready to receive input data. Access the module:
+Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Invalid Email String Missing Domain
+Suffix (e.g., user@) Attempt to Execute Form Submission
+
+EXPECTED RESULTS
+
+* System shall block the candidate profile registration successfully.
+
+* System shall trigger an inline error message indicating an invalid
+email format.
+
+* System shall highlight the email input field boundary to capture
+user attention.
+
+* System shall restrict database insertion to prevent corrupted or
+partial records.
+
+* System shall preserve the entered string in the field for user
+correction.","This test case verifies that the Recruitment module blocks candidate
+registrations and restricts form submissions when an incomplete or
+syntactically invalid email structure is used. The test ensures that the
+input validation engine, error indicators, inline alerts, and overall
+boundary rules provide a secure data entry experience.",2,"Input an incomplete email format that lacks a domain name and suffix into
+the Email field.",Email: joao@,* The input field holds and displays the incomplete string entry.
+SCRUM-T59,TC_REC_Candidate_Email_002 (negative): Verify system rejects email formats with missing suffixes,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+
+* Ensure the system is ready to receive input data. Access the module:
+Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Invalid Email String Missing Domain
+Suffix (e.g., user@) Attempt to Execute Form Submission
+
+EXPECTED RESULTS
+
+* System shall block the candidate profile registration successfully.
+
+* System shall trigger an inline error message indicating an invalid
+email format.
+
+* System shall highlight the email input field boundary to capture
+user attention.
+
+* System shall restrict database insertion to prevent corrupted or
+partial records.
+
+* System shall preserve the entered string in the field for user
+correction.","This test case verifies that the Recruitment module blocks candidate
+registrations and restricts form submissions when an incomplete or
+syntactically invalid email structure is used. The test ensures that the
+input validation engine, error indicators, inline alerts, and overall
+boundary rules provide a secure data entry experience.",3,Click on the Save button at the bottom of the form to execute validation.,,"The system halts the save operation, keeps the user on the same form page,
+and inserts no database records."
+SCRUM-T59,TC_REC_Candidate_Email_002 (negative): Verify system rejects email formats with missing suffixes,Approved,High,"PRE-CONDITIONS
+
+* Navigate to the OrangeHRM system.
+
+* Ensure the user is logged in with a valid Admin or Recruiter account.
+
+
+* Ensure the system is ready to receive input data. Access the module:
+Recruitment > Candidates > Add Candidate
+
+REQUIREMENTS
+
+Valid Candidate First and Last Name Invalid Email String Missing Domain
+Suffix (e.g., user@) Attempt to Execute Form Submission
+
+EXPECTED RESULTS
+
+* System shall block the candidate profile registration successfully.
+
+* System shall trigger an inline error message indicating an invalid
+email format.
+
+* System shall highlight the email input field boundary to capture
+user attention.
+
+* System shall restrict database insertion to prevent corrupted or
+partial records.
+
+* System shall preserve the entered string in the field for user
+correction.","This test case verifies that the Recruitment module blocks candidate
+registrations and restricts form submissions when an incomplete or
+syntactically invalid email structure is used. The test ensures that the
+input validation engine, error indicators, inline alerts, and overall
+boundary rules provide a secure data entry experience.",4,"Observe the visual state of the Email input field and the area directly
+beneath it.",,

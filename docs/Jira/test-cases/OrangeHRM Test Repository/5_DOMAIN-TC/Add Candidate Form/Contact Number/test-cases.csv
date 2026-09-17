@@ -1,0 +1,133 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T62,TC_Domain_Contact_Variable_001: Verify Contact Number variable for main functionalities scope,Approved,High,"PRE CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact Number(variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with equal or minus 25 characters long. This
+ensures that this variable is working properly and with minimal defects",1,"Test for ""0"" input",0,"Passed
+Reason: Could be considered as blank"
+SCRUM-T62,TC_Domain_Contact_Variable_001: Verify Contact Number variable for main functionalities scope,Approved,High,"PRE CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact Number(variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with equal or minus 25 characters long. This
+ensures that this variable is working properly and with minimal defects",2,"Test for ""558829552021"" input",558829552021,"Passed
+Reason: A normal input of a number"
+SCRUM-T62,TC_Domain_Contact_Variable_001: Verify Contact Number variable for main functionalities scope,Approved,High,"PRE CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact Number(variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with equal or minus 25 characters long. This
+ensures that this variable is working properly and with minimal defects",3,"Test for ""9999999999999999999999999"" input",9999999999999999999999999,"1. Passed
+2. Reason: Support for a wide range of numbers"
+SCRUM-T62,TC_Domain_Contact_Variable_001: Verify Contact Number variable for main functionalities scope,Approved,High,"PRE CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact Number(variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with equal or minus 25 characters long. This
+ensures that this variable is working properly and with minimal defects",4,"4. Test for ""99999999999999999999999999"" input",99999999999999999999999999,"1. Refused
+2. Reason: Is more than 25 characters"
+SCRUM-T63,TC_Domain_Contact_Variable_002: Verify Contact Number variable for the non-core limits and exceptions,Approved,High,"PRE CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact number
+(Variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with every potential input brought by the user.
+This ensures that this variable is working properly and with minimal
+defects",1,"1. Test for ""Alphabetical Characters"" input",Main contact number: 88992345,"1. Not Alowed
+2. Reason: It can only accept the Contact Number, no descriptions or any
+alphabetical characters"
+SCRUM-T63,TC_Domain_Contact_Variable_002: Verify Contact Number variable for the non-core limits and exceptions,Approved,High,"PRE CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact number
+(Variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with every potential input brought by the user.
+This ensures that this variable is working properly and with minimal
+defects",2,"2. Test for ""Blank"" input",,"1. Passed
+2. Reason: It’s not a required camp; it can be inserted later on"
+SCRUM-T63,TC_Domain_Contact_Variable_002: Verify Contact Number variable for the non-core limits and exceptions,Approved,High,"PRE CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: Recrutement > Add Candidate > Contact number
+(Variable)
+
+REQUIREMENTS
+- TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test verifies if the Contact number variable behaves as stated in the
+domain test table send, with every potential input brought by the user.
+This ensures that this variable is working properly and with minimal
+defects",3,"3. Test for ""Special Characters "" input
++ - / ( ) in any order <= 25 characters",+(55)9999-9998/88237753,"1. Passed
+2. Reason: Special characters shall be used with a number to make a
+Contact number"

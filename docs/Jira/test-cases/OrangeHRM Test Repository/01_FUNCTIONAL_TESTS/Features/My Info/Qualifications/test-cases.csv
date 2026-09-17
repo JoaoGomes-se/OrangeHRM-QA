@@ -1,0 +1,235 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",1,"Click on the ""+ Add"" button in the Work Experience section.",,"The ""Add Work Experience"" form is displayed."
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",2,"Type a valid company name in the ""Company"" field.",Global Tech Solutions,The field accepts the input.
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",3,"Type a valid job title in the ""Job Title"" field.",QA Automation Engineer,The field accepts the input.
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",4,"Enter a valid past date in the ""From"" field. (yyyy-dd-mm)",2020-03-01,The date is selected correctly.
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",5,"Enter a valid past date (after the ""From"" date) in the ""To"" field.
+(yyyy-dd-mm)",2024-01-02,The field accepts the input.
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",6,"Enter an optional text in the ""Comment"" field.",Handled manual and automated testing.,The field accepts the input.
+SCRUM-T6,TC_MYINFO_001(positive): Verify successful addition of a Work Experience record,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that a user can successfully add and save a new Work
+Experience record with valid data under the Qualifications section.",7,"Click the ""Save"" button.",,"A success message (e.g., ""Successfully Saved"") appears. The new record
+(""Global Tech Solutions"" / ""QA Automation Engineer"") is added to the Work
+Experience list."
+SCRUM-T7,TC_MYINFO_002(negative): Attempt to add Work Experience without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that the system prevents the user from saving a new Work
+Experience record when mandatory fields (such as Company and Job Title) are
+left completely blank.",1,"Click on the ""+ Add"" button in the Work Experience section.",,"The ""Add Work Experience"" form is displayed."
+SCRUM-T7,TC_MYINFO_002(negative): Attempt to add Work Experience without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that the system prevents the user from saving a new Work
+Experience record when mandatory fields (such as Company and Job Title) are
+left completely blank.",2,"Click inside the ""Company"" field and then click outside of it (leave it
+blank).",,The field remains empty.
+SCRUM-T7,TC_MYINFO_002(negative): Attempt to add Work Experience without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that the system prevents the user from saving a new Work
+Experience record when mandatory fields (such as Company and Job Title) are
+left completely blank.",3,"Click inside the ""Job Title"" field and then click outside of it (leave it
+blank).",,The field remains empty.
+SCRUM-T7,TC_MYINFO_002(negative): Attempt to add Work Experience without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that the system prevents the user from saving a new Work
+Experience record when mandatory fields (such as Company and Job Title) are
+left completely blank.",4,"Enter a valid past date in the ""From"" field. (yyyy-dd-mm)",2020-03-01,The date is selected correctly.
+SCRUM-T7,TC_MYINFO_002(negative): Attempt to add Work Experience without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that the system prevents the user from saving a new Work
+Experience record when mandatory fields (such as Company and Job Title) are
+left completely blank.",5,"Enter a valid past date (after the ""From"" date) in the ""To"" field.
+(yyyy-dd-mm)",2024-01-02,The field accepts the input.
+SCRUM-T7,TC_MYINFO_002(negative): Attempt to add Work Experience without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","The test verifies that the system prevents the user from saving a new Work
+Experience record when mandatory fields (such as Company and Job Title) are
+left completely blank.",6,"Click the ""Save"" button.",,"The system does not save the record. Validation error messages (e.g.,
+""Required"") appear in red under the ""Company"" and ""Job Title"" fields."

@@ -1,0 +1,662 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T11,TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new employee record using mandatory fields,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+
+4. Use administrator credentials:
+
+1. Username: Admin
+
+2. Password: admin123
+
+5. Navigate to the module path via UI: PIM > Add Employee.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that an administrator user can successfully add and
+save a new employee record by providing only the required fields (First
+Name and Last Name) in the PIM module.",1,"Locate and click on the ""PIM"" module item in the left-side main navigation
+menu.",,"The element is activated, and the PIM module main page (Employee List)
+successfully loads and displays on screen."
+SCRUM-T11,TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new employee record using mandatory fields,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+
+4. Use administrator credentials:
+
+1. Username: Admin
+
+2. Password: admin123
+
+5. Navigate to the module path via UI: PIM > Add Employee.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that an administrator user can successfully add and
+save a new employee record by providing only the required fields (First
+Name and Last Name) in the PIM module.",2,"Click on the ""Add Employee"" button located in the top tab menu bar.",,"The component handles the click action and displays the ""Add Employee""
+registration form, showing empty inputs for First Name, Middle Name, Last
+Name, and Employee Id."
+SCRUM-T11,TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new employee record using mandatory fields,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+
+4. Use administrator credentials:
+
+1. Username: Admin
+
+2. Password: admin123
+
+5. Navigate to the module path via UI: PIM > Add Employee.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that an administrator user can successfully add and
+save a new employee record by providing only the required fields (First
+Name and Last Name) in the PIM module.",3,"Click inside the text container field labeled ""First Name"" and type a valid
+name string.",First Name: Lucas,"The text field accepts the data input cleanly and displays the characters
+""Lucas"" inside."
+SCRUM-T11,TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new employee record using mandatory fields,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+
+4. Use administrator credentials:
+
+1. Username: Admin
+
+2. Password: admin123
+
+5. Navigate to the module path via UI: PIM > Add Employee.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that an administrator user can successfully add and
+save a new employee record by providing only the required fields (First
+Name and Last Name) in the PIM module.",4,"Click inside the text container field labeled ""Last Name"" and type a valid
+surname string.",Last Name: Ferreira,"The text field accepts the input and displays the characters ""Ferreira""
+inside."
+SCRUM-T11,TC_PIM_ADDEMPLOYEE_001(positive): Verify successful creation of a new employee record using mandatory fields,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149 / 1920x1080 / v5.8.
+
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+
+4. Use administrator credentials:
+
+1. Username: Admin
+
+2. Password: admin123
+
+5. Navigate to the module path via UI: PIM > Add Employee.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid
+admin credentials.","This test case verifies that an administrator user can successfully add and
+save a new employee record by providing only the required fields (First
+Name and Last Name) in the PIM module.",5,"Move the mouse cursor to the green graphic action bar and click on the
+""Save"" button.",,"1. A green success message (toast notification) pop-up appears on screen.
+2. The system saves the record to the database, assigning an automated
+Employee ID.
+3. The page dynamically redirects the view to the ""Personal Details""
+overview screen."
+SCRUM-T12,TC_PIM_ADDEMPLOYEE_004(negative/error): Verify field validation message appears when mandatory Last Name is left empty,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" form screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application prevents the creation of an
+employee record and triggers a dynamic validation error message when the
+mandatory field Last Name is left blank.",1,"Locate and click on the ""PIM"" module text option in the navigation side
+panel.",,The panel activates and loads the Employee list view interface on screen.
+SCRUM-T12,TC_PIM_ADDEMPLOYEE_004(negative/error): Verify field validation message appears when mandatory Last Name is left empty,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" form screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application prevents the creation of an
+employee record and triggers a dynamic validation error message when the
+mandatory field Last Name is left blank.",2,"Click on the ""Add Employee"" secondary navigation tab.",,"The interface switches to render the input fields of the employee
+registration form block."
+SCRUM-T12,TC_PIM_ADDEMPLOYEE_004(negative/error): Verify field validation message appears when mandatory Last Name is left empty,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" form screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application prevents the creation of an
+employee record and triggers a dynamic validation error message when the
+mandatory field Last Name is left blank.",3,"Select the ""First Name"" text field container and input a valid textual
+sequence.",First name: Sem nome,"The input component registers the text ""Sem nome"" inside its placeholder
+viewport."
+SCRUM-T12,TC_PIM_ADDEMPLOYEE_004(negative/error): Verify field validation message appears when mandatory Last Name is left empty,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" form screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application prevents the creation of an
+employee record and triggers a dynamic validation error message when the
+mandatory field Last Name is left blank.",4,"Click inside the ""Last Name"" input component, clear any text, and leave it
+completely blank.",Blank / Empty,"No characters are present in the box area; the placeholder layout remains
+empty."
+SCRUM-T12,TC_PIM_ADDEMPLOYEE_004(negative/error): Verify field validation message appears when mandatory Last Name is left empty,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" form screen.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application prevents the creation of an
+employee record and triggers a dynamic validation error message when the
+mandatory field Last Name is left blank.",5,"Navigate to the lower part of the form block and click on the ""Save"" action
+button.",,"The system blocks the form submission operation. The entry is not saved,
+and a dynamic red validation text warning displaying ""Required"" appears
+directly below the blank ""Last Name"" field box."
+SCRUM-T13,TC_PIM_ADDEMPLOYEE_005(negative/error): Verify validation handling when uploading an invalid format profile picture,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" registration block.
+
+6. An invalid sample format file (e.g., test_document.pdf) or an image
+larger than 1MB is prepared on the local disk space.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application layout rejects profile picture
+file uploads that exceed size limits or mismatch accepted image extensions
+(.jpg, .png, .gif), returning a clear error interface response.",1,"Click on the ""PIM"" section item in the left-hand navigation list component.",,The page changes and displays the main employee records data view.
+SCRUM-T13,TC_PIM_ADDEMPLOYEE_005(negative/error): Verify validation handling when uploading an invalid format profile picture,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" registration block.
+
+6. An invalid sample format file (e.g., test_document.pdf) or an image
+larger than 1MB is prepared on the local disk space.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application layout rejects profile picture
+file uploads that exceed size limits or mismatch accepted image extensions
+(.jpg, .png, .gif), returning a clear error interface response.",2,"Click on the ""Add Employee"" link switch.",,The employee input field group container structure renders successfully.
+SCRUM-T13,TC_PIM_ADDEMPLOYEE_005(negative/error): Verify validation handling when uploading an invalid format profile picture,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" registration block.
+
+6. An invalid sample format file (e.g., test_document.pdf) or an image
+larger than 1MB is prepared on the local disk space.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application layout rejects profile picture
+file uploads that exceed size limits or mismatch accepted image extensions
+(.jpg, .png, .gif), returning a clear error interface response.",3,"Click inside the ""First Name"" box area and enter a valid name value.",First Name: Raffael,"The text characters are printed and remain visible inside the box container
+viewport."
+SCRUM-T13,TC_PIM_ADDEMPLOYEE_005(negative/error): Verify validation handling when uploading an invalid format profile picture,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" registration block.
+
+6. An invalid sample format file (e.g., test_document.pdf) or an image
+larger than 1MB is prepared on the local disk space.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application layout rejects profile picture
+file uploads that exceed size limits or mismatch accepted image extensions
+(.jpg, .png, .gif), returning a clear error interface response.",4,"Click inside the ""Last Name"" input layout and enter a valid surname
+sequence.",Last Name: Prado,The user input string updates cleanly inside the input block element.
+SCRUM-T13,TC_PIM_ADDEMPLOYEE_005(negative/error): Verify validation handling when uploading an invalid format profile picture,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" registration block.
+
+6. An invalid sample format file (e.g., test_document.pdf) or an image
+larger than 1MB is prepared on the local disk space.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application layout rejects profile picture
+file uploads that exceed size limits or mismatch accepted image extensions
+(.jpg, .png, .gif), returning a clear error interface response.",5,"Click directly on the circular '+' icon graphic layered over the profile
+image placeholder to trigger the system file selector window. Select the
+prepared invalid file tool.",test_document.pdf,"The operating system file selection finder box triggers open, and the
+invalid extension file item is selected by the input listener."
+SCRUM-T13,TC_PIM_ADDEMPLOYEE_005(negative/error): Verify validation handling when uploading an invalid format profile picture,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+
+4. Use administrator credentials:
+
+o Username: Admin
+
+o Password: admin123
+
+5. Navigated to the ""PIM"" -> ""Add Employee"" registration block.
+
+6. An invalid sample format file (e.g., test_document.pdf) or an image
+larger than 1MB is prepared on the local disk space.
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application layout rejects profile picture
+file uploads that exceed size limits or mismatch accepted image extensions
+(.jpg, .png, .gif), returning a clear error interface response.",6,"Click on the form's graphical button labeled ""Save"".",,"The upload process is stopped by application validation filters. A warning
+notice banner text showing ""File type not allowed"" or ""Attachment Size
+Exceeded"" renders dynamically near the upload box area."
+SCRUM-T78,TC_PIM_Employee_001 (negative): Verify Employee Id field rejects special characters,Approved,Normal,"PRE-CONDITIONS
+Navigate to URL: https://opensource-demo.orangehrmlive.com
+Ensure that you are logged in with valid credentials (Username: `Admin` /
+Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: PIM > Add Employee.
+Ensure the Add Employee form is fully loaded.
+
+The following data is to be inserted in the form:
+* First Name: Valid (e.g., ""John"")
+* Middle Name: Empty
+* Last Name: Valid (e.g., ""Doe"")
+* Employee Id: Invalid (e.g., ""EMP-!@#$%"")
+* Create Login Details: Unchecked","Ensure the system blocks special characters in the Employee Id field during
+the creation of a new employee profile.",1,"Fulfill the PRE-CONDITIONS by navigating to the URL and logging in. Then,
+follow the REQUIREMENTS to navigate to PIM > Add Employee.",,"The ""Add Employee"" form is fully loaded."
+SCRUM-T78,TC_PIM_Employee_001 (negative): Verify Employee Id field rejects special characters,Approved,Normal,"PRE-CONDITIONS
+Navigate to URL: https://opensource-demo.orangehrmlive.com
+Ensure that you are logged in with valid credentials (Username: `Admin` /
+Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: PIM > Add Employee.
+Ensure the Add Employee form is fully loaded.
+
+The following data is to be inserted in the form:
+* First Name: Valid (e.g., ""John"")
+* Middle Name: Empty
+* Last Name: Valid (e.g., ""Doe"")
+* Employee Id: Invalid (e.g., ""EMP-!@#$%"")
+* Create Login Details: Unchecked","Ensure the system blocks special characters in the Employee Id field during
+the creation of a new employee profile.",2,"Input the data exactly as specified in the REQUIREMENTS block. Make sure to
+delete the auto-generated ID and type the invalid string in the Employee Id
+field.",EMP-!@#$%,The special characters are temporarily accepted into the input field.
+SCRUM-T78,TC_PIM_Employee_001 (negative): Verify Employee Id field rejects special characters,Approved,Normal,"PRE-CONDITIONS
+Navigate to URL: https://opensource-demo.orangehrmlive.com
+Ensure that you are logged in with valid credentials (Username: `Admin` /
+Password: `admin123`).
+
+REQUIREMENTS
+Navigate to the module: PIM > Add Employee.
+Ensure the Add Employee form is fully loaded.
+
+The following data is to be inserted in the form:
+* First Name: Valid (e.g., ""John"")
+* Middle Name: Empty
+* Last Name: Valid (e.g., ""Doe"")
+* Employee Id: Invalid (e.g., ""EMP-!@#$%"")
+* Create Login Details: Unchecked","Ensure the system blocks special characters in the Employee Id field during
+the creation of a new employee profile.",3,"Click the ""Save"" button.",,"The system must validate the field format, block the profile creation, and
+display an error indicating the ID format is invalid."
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",1,"Enter a valid text string in the ""First Name"" field.",- First Name: Raffael,"1. The text is accepted and displayed inside the ""First Name"" field."
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",2,"Enter a valid text string in the ""Last Name"" field.",- Last Name: Prado,"1. The text is accepted and displayed inside the ""Last Name"" field."
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",3,"Click on ""Create Login Credentials"" button",,"1. The button is visible and clickable
+2. A new form to create the login credentials appears when clicked"
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",4,"Click in ""Username"" and insert the username data",- Username: testing,"1. The username is visible in the field
+2. The username is valid and accepted"
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",5,"Click in ""Password"" and insert the password data",- Password: test123,"1. The password is masked and not visible
+2. The password is accepted in the field"
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",6,"Click in ""Confirm Password"" and re-insert the password data",- Confirm Password: test123,"1. The password is masked and not visible
+2. The password is accepted in the field
+3. The password is confirmed as equal as the last inserted password"
+SCRUM-T81,TC_PIM_AddEmployee_008(positive): Verify the creation of employee with valid login credentials,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+- Verify internet externaly
+
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+
+3. Navigate to URL:
+
+4. Ensure that you are logged in with Admin
+
+5. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+
+6. Go to the module: PIM > Add Employee
+
+
+REQUIREMENTS
+
+1. TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.
+2. TC_PIM_AddEmployee_001(positive): Verify the creation of a new
+employee by providing the mandatory data","This test case verifies that an admin account can succesfully create an
+employee with valid login credentials (testing/test123) when accessed the
+'Add Employee' module with admin credentials. This test case ensures a
+proper employee account creation and session management.",7,"Click on the ""Save"" button.",,"1. A success message (toast notification) is displayed.
+2. The system saves the new employee, automatically assigns an Employee
+ID, and redirects the user to the ""Personal Details"" screen."

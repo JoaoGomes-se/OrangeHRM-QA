@@ -1,0 +1,63 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T1,TC_TIME_009(security): Verify access control for Time Employee Reports,Approved,High,"Pre-conditions: 1. Access the OrangeHRM portal. 2. Have two sets of
+credentials: one Admin (to identify the report URL) and one Regular
+Employee (to attempt unauthorized access). 3. Identify a valid report URL
+(e.g., .../web/index.php/time/displayEmployeeReport/reportId/1).
+
+Requirements:
+
+* The system shall restrict the ""Reports"" menu visibility based on the
+user's role.
+
+* The system shall implement server-side validation to block direct URL
+access to reports for unauthorized users.","Objective: This test case verifies that the ""Time Employee Reports"" are
+restricted to authorized personnel only. It ensures that a user with a
+""Regular Employee"" role cannot access or view report data that belongs to
+other employees or the entire organization.",1,Login in the platform as a Regular Employee,Non-admin credentials,* Website working properly and redirected to the user dashboard.
+SCRUM-T1,TC_TIME_009(security): Verify access control for Time Employee Reports,Approved,High,"Pre-conditions: 1. Access the OrangeHRM portal. 2. Have two sets of
+credentials: one Admin (to identify the report URL) and one Regular
+Employee (to attempt unauthorized access). 3. Identify a valid report URL
+(e.g., .../web/index.php/time/displayEmployeeReport/reportId/1).
+
+Requirements:
+
+* The system shall restrict the ""Reports"" menu visibility based on the
+user's role.
+
+* The system shall implement server-side validation to block direct URL
+access to reports for unauthorized users.","Objective: This test case verifies that the ""Time Employee Reports"" are
+restricted to authorized personnel only. It ensures that a user with a
+""Regular Employee"" role cannot access or view report data that belongs to
+other employees or the entire organization.",2,"Navigate to the ""Time"" module in the sidebar",,"* The ""Time"" module loads, but the ""Reports"" tab is not visible in the
+top navigation bar."
+SCRUM-T1,TC_TIME_009(security): Verify access control for Time Employee Reports,Approved,High,"Pre-conditions: 1. Access the OrangeHRM portal. 2. Have two sets of
+credentials: one Admin (to identify the report URL) and one Regular
+Employee (to attempt unauthorized access). 3. Identify a valid report URL
+(e.g., .../web/index.php/time/displayEmployeeReport/reportId/1).
+
+Requirements:
+
+* The system shall restrict the ""Reports"" menu visibility based on the
+user's role.
+
+* The system shall implement server-side validation to block direct URL
+access to reports for unauthorized users.","Objective: This test case verifies that the ""Time Employee Reports"" are
+restricted to authorized personnel only. It ensures that a user with a
+""Regular Employee"" role cannot access or view report data that belongs to
+other employees or the entire organization.",3,Attempt to access the report page via direct URL,* Paste the Admin report URL into the browser,The system should not display the report data.
+SCRUM-T1,TC_TIME_009(security): Verify access control for Time Employee Reports,Approved,High,"Pre-conditions: 1. Access the OrangeHRM portal. 2. Have two sets of
+credentials: one Admin (to identify the report URL) and one Regular
+Employee (to attempt unauthorized access). 3. Identify a valid report URL
+(e.g., .../web/index.php/time/displayEmployeeReport/reportId/1).
+
+Requirements:
+
+* The system shall restrict the ""Reports"" menu visibility based on the
+user's role.
+
+* The system shall implement server-side validation to block direct URL
+access to reports for unauthorized users.","Objective: This test case verifies that the ""Time Employee Reports"" are
+restricted to authorized personnel only. It ensures that a user with a
+""Regular Employee"" role cannot access or view report data that belongs to
+other employees or the entire organization.",4,Verify the system's security response,,"The system must return an ""Access Denied"" message, a 403 Forbidden error,
+or redirect the user back to their personal dashboard."

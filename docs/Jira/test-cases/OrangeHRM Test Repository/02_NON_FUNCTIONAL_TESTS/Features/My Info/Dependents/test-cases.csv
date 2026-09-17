@@ -1,0 +1,124 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T50,TC_MYINFO_EmergContact_004(Usability): Verify clear validation messages when attempting to save without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system provides clear, immediate, and
+readable visual feedback (usability) when a user attempts to save an
+Emergency Contact without filling in the mandatory fields.",1,"Click on ""My Info"" > Click on ""Emergency Contacts"" tab.",<https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7>,"1. It opens the ""Emergency Contacts"" screen.
+
+2. The ""Add"" button is visible and clickable."
+SCRUM-T50,TC_MYINFO_EmergContact_004(Usability): Verify clear validation messages when attempting to save without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system provides clear, immediate, and
+readable visual feedback (usability) when a user attempts to save an
+Emergency Contact without filling in the mandatory fields.",2,"Click the ""+ Add"" button in the Assigned Emergency Contacts section.",,"1. The form drops down or appears smoothly.
+2. Mandatory fields (Name, Relationship) are clearly marked with an
+asterisk (*).The field accepts the input"
+SCRUM-T50,TC_MYINFO_EmergContact_004(Usability): Verify clear validation messages when attempting to save without mandatory fields,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the system provides clear, immediate, and
+readable visual feedback (usability) when a user attempts to save an
+Emergency Contact without filling in the mandatory fields.",3,"Leave ""Name"" and ""Relationship"" blank. Enter a number in ""Home Telephone"".
+Click ""Save"".",12345678,"1. The system does not save the record.
+2. A clear ""Required"" message is displayed in red directly below the
+""Name"" and ""Relationship"" input fields..
+3. The UI text alignment remains correct and readable."
+SCRUM-T51,TC_MYINFO_Dependents_005(Usability): Verify interface layout consistency when entering long text in the Name field,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the ""Name"" input field in the Dependents form
+handles extremely long inputs gracefully without breaking the UI alignment,
+overlapping components, or disrupting the layout.",1,"Click on ""My Info"" menu > Click on ""Dependents"" tab",,"1. It opens the ""Dependents"" screen.
+
+2. The ""+ Add"" button is visible and active."
+SCRUM-T51,TC_MYINFO_Dependents_005(Usability): Verify interface layout consistency when entering long text in the Name field,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the ""Name"" input field in the Dependents form
+handles extremely long inputs gracefully without breaking the UI alignment,
+overlapping components, or disrupting the layout.",2,"Click the ""+ Add"" button.",,"1. The form opens correctly.
+
+2. All text boxes and dropdowns are perfectly aligned."
+SCRUM-T51,TC_MYINFO_Dependents_005(Usability): Verify interface layout consistency when entering long text in the Name field,Approved,Low,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: MYINFO
+
+REQUIREMENTS
+
+1. TC_AUTH_LOGIN_004(Positive): Verify sucessfull login with valid admin
+credentials.","This test case verifies that the ""Name"" input field in the Dependents form
+handles extremely long inputs gracefully without breaking the UI alignment,
+overlapping components, or disrupting the layout.",3,Enter an extremely long name and save,JohnathanChristopherAlexanderMontgomerieTheThirdOfLondonMcDonald,"1. The system does not save the record.
+2. A clear ""Required"" message is displayed in red directly below the
+""Name"" and ""Relationship"" input fields..
+3. The UI text alignment remains correct and readable."

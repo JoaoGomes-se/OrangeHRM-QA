@@ -1,0 +1,164 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T45,TC_DASHBOARD_VIEW_001(positive/usability): Verify interactive widgets provide visual pointer feedback on hover states,Approved,Low,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index4.
+User is successfully logged in with administrative access level.
+
+
+Requirements:
+
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the interactive Quick Launch icons located on
+the main dashboard provide immediate cursor feedback, signaling to the
+end-user that they are clickable components.",1,"Scroll down the workspace layout and locate the panel labeled ""Quick
+Launch"" widget grid section.",,"The target block framework is visible, populated with multiple
+administrative action item buttons (e.g., Assign Leave, Timesheets)."
+SCRUM-T45,TC_DASHBOARD_VIEW_001(positive/usability): Verify interactive widgets provide visual pointer feedback on hover states,Approved,Low,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index4.
+User is successfully logged in with administrative access level.
+
+
+Requirements:
+
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the interactive Quick Launch icons located on
+the main dashboard provide immediate cursor feedback, signaling to the
+end-user that they are clickable components.",2,"Move the mouse cursor pointer directly over the ""Assign Leave"" option
+shortcut card icon, keeping it stationary without executing any click
+action.",,"The system captures the hover trigger state, changing the system mouse
+graphic pointer from a standard arrow into an interactive selection hand
+pointer."
+SCRUM-T45,TC_DASHBOARD_VIEW_001(positive/usability): Verify interactive widgets provide visual pointer feedback on hover states,Approved,Low,"Pre-conditions:
+1. Stable internet connection.
+
+2. Use environment: Windows 11 / Google Chrome v149.
+
+3. Access URL:
+https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index4.
+User is successfully logged in with administrative access level.
+
+
+Requirements:
+
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the interactive Quick Launch icons located on
+the main dashboard provide immediate cursor feedback, signaling to the
+end-user that they are clickable components.",3,"Drag the mouse cursor pointer away from the interactive element block into
+an empty background space area.",,"The cursor updates immediately, reverting back from the selection hand
+design into the default arrow pointer tool layout."
+SCRUM-T46,TC_DASHBOARD_PERFORMANCE_001(positive/response_time): Verify Dashboard analytics metrics load within acceptable timing limits,Approved,Normal,"Pre-conditions:
+1. High-speed stable internet service.
+
+2. User navigation is sitting ready on the base login page framework.3.
+Valid administrative account credentials are typed completely into
+their respective field boxes but not submitted yet.
+
+3. An independent digital stopwatch or browser network profiling tool is
+configured and ready.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application dashboard screen, including
+all asynchronous API-dependent chart visualizations, completes its full
+data fetching and graphic drawing within a strict time frame.",1,"Press down on the graphical ""Login"" form submit button and simultaneously
+trigger your stopwatch utility to start recording elapsed time.",,"The client sends the structural authentication request payload directly to
+the server infrastructure endpoint."
+SCRUM-T46,TC_DASHBOARD_PERFORMANCE_001(positive/response_time): Verify Dashboard analytics metrics load within acceptable timing limits,Approved,Normal,"Pre-conditions:
+1. High-speed stable internet service.
+
+2. User navigation is sitting ready on the base login page framework.3.
+Valid administrative account credentials are typed completely into
+their respective field boxes but not submitted yet.
+
+3. An independent digital stopwatch or browser network profiling tool is
+configured and ready.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application dashboard screen, including
+all asynchronous API-dependent chart visualizations, completes its full
+data fetching and graphic drawing within a strict time frame.",2,"Observe the dashboard workspace screen render, focusing on the asynchronous
+data rendering behavior of the graphic chart blocks.",,"The standard static UI skeleton structures load up layout frames instantly,
+followed by the background web APIs fetching metric calculations to
+populate the graphics."
+SCRUM-T46,TC_DASHBOARD_PERFORMANCE_001(positive/response_time): Verify Dashboard analytics metrics load within acceptable timing limits,Approved,Normal,"Pre-conditions:
+1. High-speed stable internet service.
+
+2. User navigation is sitting ready on the base login page framework.3.
+Valid administrative account credentials are typed completely into
+their respective field boxes but not submitted yet.
+
+3. An independent digital stopwatch or browser network profiling tool is
+configured and ready.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the application dashboard screen, including
+all asynchronous API-dependent chart visualizations, completes its full
+data fetching and graphic drawing within a strict time frame.",3,"Stop the active recording stopwatch utility the exact physical millisecond
+the ""Employee Distribution by Sub Unit"" pie chart visual is fully drawn on
+screen.",,"The final recorded time marker calculated on the stopwatch interface must
+be strictly less than 3.0 seconds to meet SLA requirements."
+SCRUM-T47,TC_DASHBOARD_VIEW_002(positive/responsiveness): Verify dashboard layout grids resize and scale proportionally on tablet screens,Approved,Normal,"Pre-conditions:
+1. Use Google Chrome with active developer console access.
+2. Administrator credentials are authenticated, and the landing
+dashboard view is active.
+3. Browser Developer Tools window is toggled into screen emulation mode
+.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that dashboard widgets, layout tracking cards, and
+tabular tracking information adapt their multi-column structures down
+fluidly when viewed through standard tablet viewport resolutions.",1,"Access the dimension properties area in the responsive simulation bar at
+the top, change the viewport resolution properties, and hit enter.",768px(simulating an iPad Mini in portrait mode),"The viewport container constraints adapt immediately. The left-hand
+application navigation panel menu automatically collapses into a compact
+hamburger layout layer to conserve display real estate."
+SCRUM-T47,TC_DASHBOARD_VIEW_002(positive/responsiveness): Verify dashboard layout grids resize and scale proportionally on tablet screens,Approved,Normal,"Pre-conditions:
+1. Use Google Chrome with active developer console access.
+2. Administrator credentials are authenticated, and the landing
+dashboard view is active.
+3. Browser Developer Tools window is toggled into screen emulation mode
+.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that dashboard widgets, layout tracking cards, and
+tabular tracking information adapt their multi-column structures down
+fluidly when viewed through standard tablet viewport resolutions.",2,"Use your navigation tool to swipe or scroll down the screen surface to
+check the visual structure of the ""Time at Work"" and ""My Actions""
+information card widgets.",,"The individual tracking layout elements scale down and realign their
+boundaries proportionally compared to their desktop layout configurations."
+SCRUM-T47,TC_DASHBOARD_VIEW_002(positive/responsiveness): Verify dashboard layout grids resize and scale proportionally on tablet screens,Approved,Normal,"Pre-conditions:
+1. Use Google Chrome with active developer console access.
+2. Administrator credentials are authenticated, and the landing
+dashboard view is active.
+3. Browser Developer Tools window is toggled into screen emulation mode
+.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that dashboard widgets, layout tracking cards, and
+tabular tracking information adapt their multi-column structures down
+fluidly when viewed through standard tablet viewport resolutions.",3,"Closely inspect the labels, text fields, and legend charts placed inside
+the scaled widget cards.",,"Alphanumeric strings remain fully legible without cropping or colliding.
+Graphs sit completely bounded inside their white card frames, and no inner
+horizontal scroll tools are generated inside the cards."

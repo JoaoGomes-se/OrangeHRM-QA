@@ -1,0 +1,166 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T2,TC_REC_Candidate_012 (negative): Verify Resume upload rejection on maximum size boundary,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively rejects file uploads in the Resume field
+that exceed the 1MB maximum size limit.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button","Login: Admin
+Password: admin123",Redirected to Dashboard.
+SCRUM-T2,TC_REC_Candidate_012 (negative): Verify Resume upload rejection on maximum size boundary,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively rejects file uploads in the Resume field
+that exceed the 1MB maximum size limit.",2,"Fill all mandatory fields (First Name, Last Name, Email) with valid data.",Viewport: 375 x 667,Fields are successfully populated.
+SCRUM-T2,TC_REC_Candidate_012 (negative): Verify Resume upload rejection on maximum size boundary,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively rejects file uploads in the Resume field
+that exceed the 1MB maximum size limit.",3,"In the Resume section, click the ""Browse"" button.",,OS File Explorer opens.
+SCRUM-T2,TC_REC_Candidate_012 (negative): Verify Resume upload rejection on maximum size boundary,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively rejects file uploads in the Resume field
+that exceed the 1MB maximum size limit.",4,Select the cv_large.pdf file (1.01MB) and confirm.,cv_large.pdf file (1.01MB),File name appears in the field.
+SCRUM-T2,TC_REC_Candidate_012 (negative): Verify Resume upload rejection on maximum size boundary,Approved,High,"PRE-CONDITIONS
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the Admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+REQUIREMENTS
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively rejects file uploads in the Resume field
+that exceed the 1MB maximum size limit.",5,"Click the ""Save"" button.",,"The system rejects the submission, does not save the candidate, and
+displays the error message ""Attachment Size Exceeded""."
+SCRUM-T3,TC_REC_Candidate_013 (negative): Verify Resume field rejects executable file extensions,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+
+REQUIREMENTS
+
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively blocks executable files from being uploaded
+in the Resume field to prevent security vulnerabilities.",1,"1. Navigate to URL: https://opensource-demo.orangehrmlive.com
+2. Type 'Admin' in the Username field
+3. Type 'admin123' in the Password field
+4. Click the 'Login' button","Login: Admin
+Password: admin123",Redirected to Dashboard
+SCRUM-T3,TC_REC_Candidate_013 (negative): Verify Resume field rejects executable file extensions,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+
+REQUIREMENTS
+
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively blocks executable files from being uploaded
+in the Resume field to prevent security vulnerabilities.",2,"Fill all mandatory fields (First Name, Last Name, Email) with valid data.",,Fields are successfully populated.
+SCRUM-T3,TC_REC_Candidate_013 (negative): Verify Resume field rejects executable file extensions,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+
+REQUIREMENTS
+
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively blocks executable files from being uploaded
+in the Resume field to prevent security vulnerabilities.",3,"In the Resume section, click the ""Browse"" button.",,OS File Explorer opens.
+SCRUM-T3,TC_REC_Candidate_013 (negative): Verify Resume field rejects executable file extensions,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+
+REQUIREMENTS
+
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively blocks executable files from being uploaded
+in the Resume field to prevent security vulnerabilities.",4,Select the payload.exe file and confirm.,,File name appears in the field.
+SCRUM-T3,TC_REC_Candidate_013 (negative): Verify Resume field rejects executable file extensions,Approved,High,"PRE-CONDITIONS
+
+1. Stable internet connection
+2. Use one of the following environments:
+- Windows 11 / Google Chrome v149 / 1920x1080 / v5.8
+- Linux 7.0 / Google Chrome v149 / 1920x1080 / v5.8
+3. Navigate to URL: https://opensource-demo.orangehrmlive.com
+4. Use the admin credentials:
+- Username: Admin
+- Password: admin123
+5. Go to the module: REC
+
+REQUIREMENTS
+
+TC_AUTH_Login_004(Positive): Verify sucessfull login with valid admin
+credentials.","Verify that the system actively blocks executable files from being uploaded
+in the Resume field to prevent security vulnerabilities.",5,"Click the ""Save"" button.",,"The system rejects the submission, does not save the candidate, and
+displays an error message indicating that the file type is not allowed."

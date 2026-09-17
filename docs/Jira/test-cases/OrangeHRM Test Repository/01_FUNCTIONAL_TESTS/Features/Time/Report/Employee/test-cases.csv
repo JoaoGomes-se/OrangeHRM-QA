@@ -1,0 +1,304 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T31,TC-TIME_004 (positive) : Generate employee report using valid filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure that the user is logged in with a valid Admin or Employee
+account.
+* Ensure that employee time records already exist in the database.
+* Access to the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* System shall allow users to access the Employee Reports module.
+* System shall accept valid report filters and employee information.
+* System shall generate the employee report successfully.
+* System shall display the report data according to the selected
+filters.
+* System shall maintain the appropriate interface layout, colors, and
+design standards.
+EXPECTED RESULTS
+The system should successfully generate and display the Employee Report
+using the selected valid filters and employee data. The displayed
+information must correspond to the applied search criteria without errors
+or inconsistencies.","This test case verifies that the system successfully generates and displays
+an Employee Report when valid employee data and report filters are provided
+in the OrangeHRM system. The test ensures that the reporting functionality
+works correctly and that the displayed information matches the selected
+criteria.",1,Log into OrangeHRM,"Valid username
+Valid password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully.
+* The system redirects the user to the Dashboard page after login."
+SCRUM-T31,TC-TIME_004 (positive) : Generate employee report using valid filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure that the user is logged in with a valid Admin or Employee
+account.
+* Ensure that employee time records already exist in the database.
+* Access to the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* System shall allow users to access the Employee Reports module.
+* System shall accept valid report filters and employee information.
+* System shall generate the employee report successfully.
+* System shall display the report data according to the selected
+filters.
+* System shall maintain the appropriate interface layout, colors, and
+design standards.
+EXPECTED RESULTS
+The system should successfully generate and display the Employee Report
+using the selected valid filters and employee data. The displayed
+information must correspond to the applied search criteria without errors
+or inconsistencies.","This test case verifies that the system successfully generates and displays
+an Employee Report when valid employee data and report filters are provided
+in the OrangeHRM system. The test ensures that the reporting functionality
+works correctly and that the displayed information matches the selected
+criteria.",2,Access Time > Reports > Employee Reports,,"* The Employee Reports module opens successfully.
+* The page interface is fully visible and functional.
+* Navigation to the module occurs without errors."
+SCRUM-T31,TC-TIME_004 (positive) : Generate employee report using valid filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure that the user is logged in with a valid Admin or Employee
+account.
+* Ensure that employee time records already exist in the database.
+* Access to the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* System shall allow users to access the Employee Reports module.
+* System shall accept valid report filters and employee information.
+* System shall generate the employee report successfully.
+* System shall display the report data according to the selected
+filters.
+* System shall maintain the appropriate interface layout, colors, and
+design standards.
+EXPECTED RESULTS
+The system should successfully generate and display the Employee Report
+using the selected valid filters and employee data. The displayed
+information must correspond to the applied search criteria without errors
+or inconsistencies.","This test case verifies that the system successfully generates and displays
+an Employee Report when valid employee data and report filters are provided
+in the OrangeHRM system. The test ensures that the reporting functionality
+works correctly and that the displayed information matches the selected
+criteria.",3,Enter a valid employee name,Employee: manda user,"* The system displays matching employee suggestions.
+* The employee can be selected successfully from the autocomplete list.
+* The selected employee name is inserted correctly into the field."
+SCRUM-T31,TC-TIME_004 (positive) : Generate employee report using valid filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure that the user is logged in with a valid Admin or Employee
+account.
+* Ensure that employee time records already exist in the database.
+* Access to the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* System shall allow users to access the Employee Reports module.
+* System shall accept valid report filters and employee information.
+* System shall generate the employee report successfully.
+* System shall display the report data according to the selected
+filters.
+* System shall maintain the appropriate interface layout, colors, and
+design standards.
+EXPECTED RESULTS
+The system should successfully generate and display the Employee Report
+using the selected valid filters and employee data. The displayed
+information must correspond to the applied search criteria without errors
+or inconsistencies.","This test case verifies that the system successfully generates and displays
+an Employee Report when valid employee data and report filters are provided
+in the OrangeHRM system. The test ensures that the reporting functionality
+works correctly and that the displayed information matches the selected
+criteria.",4,Select a valid date range (or only the name of the employee),"* Valid Start Date
+* Valid End Date","* The selected dates are accepted by the system.
+* The date fields allow valid input without validation errors.
+* The report filters remain available for submission."
+SCRUM-T31,TC-TIME_004 (positive) : Generate employee report using valid filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure that the user is logged in with a valid Admin or Employee
+account.
+* Ensure that employee time records already exist in the database.
+* Access to the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+* System shall allow users to access the Employee Reports module.
+* System shall accept valid report filters and employee information.
+* System shall generate the employee report successfully.
+* System shall display the report data according to the selected
+filters.
+* System shall maintain the appropriate interface layout, colors, and
+design standards.
+EXPECTED RESULTS
+The system should successfully generate and display the Employee Report
+using the selected valid filters and employee data. The displayed
+information must correspond to the applied search criteria without errors
+or inconsistencies.","This test case verifies that the system successfully generates and displays
+an Employee Report when valid employee data and report filters are provided
+in the OrangeHRM system. The test ensures that the reporting functionality
+works correctly and that the displayed information matches the selected
+criteria.",5,Generate the employee report,Click on the View button,"* The report is generated successfully.
+* The system displays the employee report according to the selected
+filters.
+* The displayed information matches the selected employee and date
+range.
+* No validation or system errors are shown.
+* The report page remains responsive and properly formatted."
+SCRUM-T32,TC-TIME_005 (Negative) :Verify system behavior with invalid report filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+
+System shall prevent report generation with invalid filters.
+System shall display validation or warning messages when incorrect data is
+inserted.
+System shall return no records when the provided filters do not match
+existing data.
+System shall maintain proper interface layout, colors, and responsiveness
+during validation
+
+
+EXPECTED RESULTS
+The system should display validation messages or return no matching records
+when invalid employee data or incorrect report filters are used. The report
+must not be generated with invalid information, and the interface should
+remain stable and functional.","This test case verifies how the OrangeHRM system behaves when invalid
+employee data or incorrect report filters are used during employee report
+generation. The test make sure that the system validates incorrect inputs
+properly and prevents invalid report generation.",1,Log into OrangeHRM,"* Valid Username
+* Valid Password","* The OrangeHRM login page loads successfully.
+* The login interface is displayed correctly.
+* The user is authenticated successfully.
+* The system redirects the user to the Dashboard page after login."
+SCRUM-T32,TC-TIME_005 (Negative) :Verify system behavior with invalid report filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+
+System shall prevent report generation with invalid filters.
+System shall display validation or warning messages when incorrect data is
+inserted.
+System shall return no records when the provided filters do not match
+existing data.
+System shall maintain proper interface layout, colors, and responsiveness
+during validation
+
+
+EXPECTED RESULTS
+The system should display validation messages or return no matching records
+when invalid employee data or incorrect report filters are used. The report
+must not be generated with invalid information, and the interface should
+remain stable and functional.","This test case verifies how the OrangeHRM system behaves when invalid
+employee data or incorrect report filters are used during employee report
+generation. The test make sure that the system validates incorrect inputs
+properly and prevents invalid report generation.",2,Access Time > Reports > Employee Reports,,"* The Employee Reports page opens successfully.
+* All report filters and interface components are visible.
+* The module loads without errors.
+* The page remains responsive and functional."
+SCRUM-T32,TC-TIME_005 (Negative) :Verify system behavior with invalid report filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+
+System shall prevent report generation with invalid filters.
+System shall display validation or warning messages when incorrect data is
+inserted.
+System shall return no records when the provided filters do not match
+existing data.
+System shall maintain proper interface layout, colors, and responsiveness
+during validation
+
+
+EXPECTED RESULTS
+The system should display validation messages or return no matching records
+when invalid employee data or incorrect report filters are used. The report
+must not be generated with invalid information, and the interface should
+remain stable and functional.","This test case verifies how the OrangeHRM system behaves when invalid
+employee data or incorrect report filters are used during employee report
+generation. The test make sure that the system validates incorrect inputs
+properly and prevents invalid report generation.",3,Enter a invalid employee name,Employee: Joãogomesdearaujo,"* The system does not recognize the employee name.
+* No matching employee suggestions are displayed.
+* The invalid employee cannot be selected.
+* The system keeps the field in an invalid state for report generation."
+SCRUM-T32,TC-TIME_005 (Negative) :Verify system behavior with invalid report filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+
+System shall prevent report generation with invalid filters.
+System shall display validation or warning messages when incorrect data is
+inserted.
+System shall return no records when the provided filters do not match
+existing data.
+System shall maintain proper interface layout, colors, and responsiveness
+during validation
+
+
+EXPECTED RESULTS
+The system should display validation messages or return no matching records
+when invalid employee data or incorrect report filters are used. The report
+must not be generated with invalid information, and the interface should
+remain stable and functional.","This test case verifies how the OrangeHRM system behaves when invalid
+employee data or incorrect report filters are used during employee report
+generation. The test make sure that the system validates incorrect inputs
+properly and prevents invalid report generation.",4,Select a valid date range,From: 2026-01-01 / To: 2026-01-31,"* The selected dates are accepted successfully.
+* The date fields validate the inserted values correctly.
+* No date validation errors are displayed."
+SCRUM-T32,TC-TIME_005 (Negative) :Verify system behavior with invalid report filters,Approved,High,"PRE-CONDITIONS
+* Navigate to the OrangeHRM
+
+system.
+* Ensure the user is logged in with a valid Admin or Employee account.
+* Access the module:
+Time > Reports > Employee Reports
+
+REQUIREMENTS
+
+System shall prevent report generation with invalid filters.
+System shall display validation or warning messages when incorrect data is
+inserted.
+System shall return no records when the provided filters do not match
+existing data.
+System shall maintain proper interface layout, colors, and responsiveness
+during validation
+
+
+EXPECTED RESULTS
+The system should display validation messages or return no matching records
+when invalid employee data or incorrect report filters are used. The report
+must not be generated with invalid information, and the interface should
+remain stable and functional.","This test case verifies how the OrangeHRM system behaves when invalid
+employee data or incorrect report filters are used during employee report
+generation. The test make sure that the system validates incorrect inputs
+properly and prevents invalid report generation.",5,Click Generate/View,Click on the Generate/View button,"* The system validates the inserted employee data.
+* The report is not generated for the invalid employee.
+* The system displays a message such as:
+o “No Records Found”
+o or a validation warning message."

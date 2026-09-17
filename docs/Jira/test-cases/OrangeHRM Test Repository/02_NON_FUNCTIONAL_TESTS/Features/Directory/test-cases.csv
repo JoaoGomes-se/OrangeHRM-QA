@@ -1,0 +1,55 @@
+Key,Name,Status,Priority,Precondition,Objective,Step Number,Step,Test Data,Expected Result
+SCRUM-T49,TC_DIRECTORY_PERFORMANCE_001(positive/response_time): Verify employee name autocomplete suggestion dropdown renders within SLA timing limits,Approved,Normal,"Pre-conditions:
+1. High-speed stable internet service.
+
+2. User is successfully authenticated with valid credentials and has
+navigated to the ""Directory"" module workspace.
+
+3. An independent stopwatch utility or automated browser profiling
+network script is ready for tracking.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the dynamic autocomplete suggestion component
+in the Directory search filter fetches, filters, and renders matching
+records fast enough to maintain an optimal UX workflow.",1,"Move your primary selector tool pointer over the input container field
+labeled ""Employee Name"" and click to focus the element.",,"The input layout displays an active focus outline state, and the textual
+input insertion line begins blinking."
+SCRUM-T49,TC_DIRECTORY_PERFORMANCE_001(positive/response_time): Verify employee name autocomplete suggestion dropdown renders within SLA timing limits,Approved,Normal,"Pre-conditions:
+1. High-speed stable internet service.
+
+2. User is successfully authenticated with valid credentials and has
+navigated to the ""Directory"" module workspace.
+
+3. An independent stopwatch utility or automated browser profiling
+network script is ready for tracking.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the dynamic autocomplete suggestion component
+in the Directory search filter fetches, filters, and renders matching
+records fast enough to maintain an optimal UX workflow.",2,"Type the character string ""a"" into the focused field and simultaneously
+trigger your stopwatch tool to begin recording elapsed time.",a,"The application listener captures the keystroke event, and a brief
+""Searching..."" graphical feedback text indicator layer is rendered near the
+box."
+SCRUM-T49,TC_DIRECTORY_PERFORMANCE_001(positive/response_time): Verify employee name autocomplete suggestion dropdown renders within SLA timing limits,Approved,Normal,"Pre-conditions:
+1. High-speed stable internet service.
+
+2. User is successfully authenticated with valid credentials and has
+navigated to the ""Directory"" module workspace.
+
+3. An independent stopwatch utility or automated browser profiling
+network script is ready for tracking.
+
+Requirements:
+
+* TC_AUTH_LOGIN_004(Positive): Verify successful login with valid admin
+credentials.","This test case verifies that the dynamic autocomplete suggestion component
+in the Directory search filter fetches, filters, and renders matching
+records fast enough to maintain an optimal UX workflow.",3,"Stop the active recording stopwatch utility the exact physical millisecond
+the contextual suggestion dropdown menu panel pops open beneath the search
+bar.",,"The data list populates with employee records matching the search criteria.
+The total recorded time marker calculated on the stopwatch interface must
+be strictly less than 3.0 seconds to meet performance SLA boundaries."
